@@ -1,0 +1,12 @@
+#!/system/bin/sh
+# This is an example shell script.
+# Use the file manager or the top left to manage files.
+
+echo "Hello, World!"
+
+http://live.vooc.org/get.php?username=c80feaa80b&password=aabb82b58a57&type=m3u_plus&output=ts
+#EXTINF:-1,Arena Sport 2
+http://live.vooc.org/get.php?username=c80feaa80b&password=aabb82b58a57&type=m3u_plus&output=ts
+#EXTINF:-1,Arena Sport 3
+http://live.vooc.org/get.php?username=c80feaa80b&password=aabb82b58a57&type=m3u_plus&output=ts
+
