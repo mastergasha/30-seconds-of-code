@@ -1,11 +1,11 @@
 ---
 title: Convert an HSL color string to a JavaScript array or object
 shortTitle: HSL to array or object
-type: story
 language: javascript
 tags: [string,regexp]
 cover: number-2
 excerpt: Easily convert an `hsl()` color string to an array of values or an object with the values of each color.
+listed: true
 dateModified: 2024-03-07
 ---
 

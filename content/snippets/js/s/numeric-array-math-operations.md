@@ -1,11 +1,11 @@
 ---
 title: Perform math operations on arrays of numbers in JavaScript
 shortTitle: Math operations on numeric arrays
-type: story
 language: javascript
 tags: [array,math]
 cover: red-lake
 excerpt: Learn how to work with arrays of numbers in JavaScript, performing common math operations such as sum, average, product and more.
+listed: true
 dateModified: 2024-02-11
 ---
 

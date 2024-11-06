@@ -1,11 +1,11 @@
 ---
 title: Split a JavaScript string into words
 shortTitle: Split string into words
-type: story
 language: javascript
 tags: [string]
 cover: sea-view-2
 excerpt: Learn how to split a string into words, using the `Intl.Segmenter` API.
+listed: true
 dateModified: 2024-01-24
 ---
 

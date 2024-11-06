@@ -136,23 +136,14 @@
 - from: /c/cheatsheets/*
   to: /cheatsheets/:splat
   status: 301!
-- from: /c/tips/*
-  to: /tips/:splat
-  status: 301!
 - from: /c/web-development/*
   to: /web-development/:splat
-  status: 301!
-- from: /c/css-centering/*
-  to: /css/centering/:splat
   status: 301!
 - from: /c/css-hover-effects/*
   to: /css/hover-effects/:splat
   status: 301!
 - from: /c/css-button-transitions/*
   to: /css/button-transitions/:splat
-  status: 301!
-- from: /c/css-background-patterns/*
-  to: /css/background-patterns/:splat
   status: 301!
 - from: /c/js-array-initialization/*
   to: /js/array-initialization/:splat
@@ -219,9 +210,6 @@
   status: 301!
 - from: /c/js-web-storage-essentials/*
   to: /js/web-storage-essentials/:splat
-  status: 301!
-- from: /c/react-rendering/*
-  to: /react/rendering/:splat
   status: 301!
 - from: /c/react-testing/*
   to: /react/testing/:splat
@@ -301,9 +289,6 @@
 - from: /articles/s/javascript-copy-array
   to: /js/s/copy-array
   status: 301!
-- from: /articles/s/javascript-deep-freeze-object
-  to: /js/s/deep-freeze-object
-  status: 301!
 - from: /articles/s/javascript-destructuring-assignment
   to: /js/s/destructuring-assignment
   status: 301!
@@ -367,9 +352,6 @@
 - from: /articles/s/javascript-merge-arrays
   to: /js/s/merge-arrays
   status: 301!
-- from: /articles/s/javascript-modify-url-without-reload
-  to: /js/s/modify-url-without-reload
-  status: 301!
 - from: /articles/s/javascript-module-cheatsheet
   to: /js/s/module-cheatsheet
   status: 301!
@@ -381,9 +363,6 @@
   status: 301!
 - from: /articles/s/javascript-object-array-proxy
   to: /js/s/object-array-proxy
-  status: 301!
-- from: /articles/s/javascript-object-comparison
-  to: /js/s/object-comparison
   status: 301!
 - from: /articles/s/javascript-object-is-triple-equals
   to: /js/s/object-is-triple-equals
@@ -586,9 +565,6 @@
 - from: /articles/s/js-fast-remove-array-element
   to: /js/s/fast-remove-array-element
   status: 301!
-- from: /articles/s/js-frequency-map-data-structure
-  to: /js/s/frequency-map-data-structure
-  status: 301!
 - from: /articles/s/js-immutable-object-proxy
   to: /js/s/immutable-object-proxy
   status: 301!
@@ -600,9 +576,6 @@
   status: 301!
 - from: /articles/s/js-native-data-structures
   to: /js/s/native-data-structures
-  status: 301!
-- from: /articles/s/js-object-freeze-vs-seal
-  to: /js/s/object-freeze-vs-seal
   status: 301!
 - from: /articles/s/js-proxy-array-negative-index
   to: /js/s/proxy-array-negative-index
@@ -700,29 +673,14 @@
 - from: /articles/s/react-redux-readable-reducers
   to: /react/s/redux-readable-reducers
   status: 301!
-- from: /articles/s/react-rendering-basics
-  to: /react/s/rendering-basics
-  status: 301!
-- from: /articles/s/react-rendering-optimization
-  to: /react/s/rendering-optimization
-  status: 301!
-- from: /articles/s/react-rendering-state
-  to: /react/s/rendering-state
-  status: 301!
 - from: /articles/s/react-selected-option
   to: /react/s/selected-option
   status: 301!
 - from: /articles/s/react-use-effect-primitive-dependencies
   to: /react/s/use-effect-primitive-dependencies
   status: 301!
-- from: /articles/s/react-use-interval-explained
-  to: /react/s/use-interval-explained
-  status: 301!
 - from: /articles/s/react-use-state-with-label
   to: /react/s/use-state-with-label
-  status: 301!
-- from: /articles/s/css-centering
-  to: /css/s/centering
   status: 301!
 - from: /articles/s/css-clamp
   to: /css/s/clamp
@@ -883,15 +841,6 @@
 - from: /articles/s/responsive-favicon-dark-mode
   to: /css/s/responsive-favicon-dark-mode
   status: 301!
-- from: /js/s/add-multiple-events
-  to: /js/s/add-multiple-event-listeners
-  status: 301!
-- from: /js/s/remove-event-listener-all
-  to: /js/s/remove-multiple-event-listeners
-  status: 301!
-- from: /js/s/accumulate
-  to: /js/s/partial-sum-array
-  status: 301!
 - from: /js/s/create-dir-if-not-exists
   to: /js/s/create-directory-if-not-exists
   status: 301!
@@ -910,12 +859,6 @@
 - from: /js/s/ranking
   to: /js/s/array-ranking
   status: 301!
-- from: /js/s/redirect
-  to: /js/s/redirect-to-url
-  status: 301!
-- from: /js/s/require-uncached
-  to: /js/s/uncached-module-require
-  status: 301!
 - from: /js/s/attempt
   to: /js/s/attempt-invoking-function
   status: 301!
@@ -928,8 +871,11 @@
 - from: /js/s/get-cmd-args
   to: /js/s/command-line-arguments
   status: 301!
-- from: /js/s/jso-nto-csv
-  to: /js/s/json-to-csv
+- from: /js/s/has-flags
+  to: /js/s/command-line-arguments
+  status: 301!
+- from: /js/s/process-arguments-have-flags
+  to: /js/s/command-line-arguments
   status: 301!
 - from: /js/s/nest
   to: /js/s/nest-objects
@@ -939,9 +885,6 @@
   status: 301!
 - from: /js/s/words
   to: /js/s/string-to-words
-  status: 301!
-- from: /js/s/x-prod
-  to: /js/s/cross-product-of-arrays
   status: 301!
 - from: /js/s/throttle
   to: /js/s/throttle-function
@@ -966,9 +909,6 @@
   status: 301!
 - from: /js/s/pretty-bytes
   to: /js/s/pretty-print-number-of-bytes
-  status: 301!
-- from: /js/s/has-flags
-  to: /js/s/process-arguments-have-flags
   status: 301!
 - from: /js/s/have-same-contents
   to: /js/s/arrays-have-same-contents
@@ -1015,9 +955,6 @@
 - from: /js/s/combine
   to: /js/s/combine-object-arrays
   status: 301!
-- from: /js/s/group-by
-  to: /js/s/function-based-array-element-grouping
-  status: 301!
 - from: /js/s/longest-item
   to: /js/s/longest-array-element
   status: 301!
@@ -1030,41 +967,11 @@
 - from: /js/s/remove
   to: /js/s/remove-matching-array-elements
   status: 301!
-- from: /js/s/dig
-  to: /js/s/get-nested-value-in-object
-  status: 301!
-- from: /js/s/rearg
-  to: /js/s/rearrange-function-arguments
-  status: 301!
-- from: /js/s/assert-valid-keys
-  to: /js/s/assert-object-key-validity
-  status: 301!
-- from: /js/s/deep-merge
-  to: /js/s/deep-merge-objects
-  status: 301!
-- from: /js/s/merge
-  to: /js/s/merge-objects
-  status: 301!
 - from: /js/s/unwind
   to: /js/s/unwind-object
   status: 301!
 - from: /js/s/walk-through
   to: /js/s/walk-through-object
-  status: 301!
-- from: /js/s/equals
-  to: /js/s/deep-equality-comparison
-  status: 301!
-- from: /js/s/deep-get
-  to: /js/s/deep-get-object-value
-  status: 301!
-- from: /js/s/get
-  to: /js/s/get-nested-object-value
-  status: 301!
-- from: /js/s/matches
-  to: /js/s/match-object-properties
-  status: 301!
-- from: /js/s/size
-  to: /js/s/size-of-array-object-or-string
   status: 301!
 - from: /js/s/sum-power
   to: /js/s/sum-powers-in-range
@@ -1072,26 +979,11 @@
 - from: /js/s/split-lines
   to: /js/s/split-into-lines
   status: 301!
-- from: /js/s/flip
-  to: /js/s/flip-function-arguments
-  status: 301!
 - from: /js/s/replace-or-append
   to: /js/s/replace-or-append-array-value
   status: 301!
 - from: /js/s/resolve-after
   to: /js/s/resolve-promise-after-amount-of-time
-  status: 301!
-- from: /js/s/initial
-  to: /js/s/array-without-last-element
-  status: 301!
-- from: /js/s/matches-with
-  to: /js/s/function-based-object-property-matches
-  status: 301!
-- from: /js/s/index-by
-  to: /js/s/function-based-array-indexing
-  status: 301!
-- from: /js/s/reduce-successive
-  to: /js/s/successive-values-array
   status: 301!
 - from: /js/s/replace-last
   to: /js/s/replace-last-occurrence
@@ -1438,6 +1330,9 @@
 - from: /js/s/is-object
   to: /js/s/complete-guide-to-js-type-checking
   status: 301!
+- from: /js/s/is-plain-object
+  to: /js/s/complete-guide-to-js-type-checking
+  status: 301!
 - from: /js/s/is-primitive
   to: /js/s/complete-guide-to-js-type-checking
   status: 301!
@@ -1469,6 +1364,12 @@
   to: /js/s/remove-first-last-n-array-elements
   status: 301!
 - from: /js/s/drop-array-elements-from-left
+  to: /js/s/remove-first-last-n-array-elements
+  status: 301!
+- from: /js/s/initial
+  to: /js/s/remove-first-last-n-array-elements
+  status: 301!
+- from: /js/s/array-without-last-element
   to: /js/s/remove-first-last-n-array-elements
   status: 301!
 - from: /js/s/atob
@@ -1532,6 +1433,9 @@
   to: /js/s/euclidean-distance
   status: 301!
 - from: /js/s/distance-between-two-points
+  to: /js/s/euclidean-distance
+  status: 301!
+- from: /js/s/vector-distance
   to: /js/s/euclidean-distance
   status: 301!
 - from: /js/s/find-key
@@ -2518,12 +2422,6 @@
 - from: /js/s/function-based-array-element-equality
   to: /js/s/all-values-of-array-are-equal
   status: 301!
-- from: /js/s/frozen-set
-  to: /js/s/freeze-set-or-map
-  status: 301!
-- from: /js/s/freeze-set-object
-  to: /js/s/freeze-set-or-map
-  status: 301!
 - from: /js/s/last-date-of-month
   to: /js/s/first-last-date-of-month
   status: 301!
@@ -2757,4 +2655,733 @@
   status: 301!
 - from: /js/s/array-to-object-based-on-key
   to: /js/s/listify
+  status: 301!
+- from: /js/s/get
+  to: /js/s/get-nested-object-value
+  status: 301!
+- from: /js/s/deep-get
+  to: /js/s/get-nested-object-value
+  status: 301!
+- from: /js/s/deep-get-object-value
+  to: /js/s/get-nested-object-value
+  status: 301!
+- from: /js/s/dig
+  to: /js/s/get-nested-object-value
+  status: 301!
+- from: /js/s/get-nested-value-in-object
+  to: /js/s/get-nested-object-value
+  status: 301!
+- from: /js/s/deep-merge
+  to: /js/s/merge-objects
+  status: 301!
+- from: /js/s/deep-merge-objects
+  to: /js/s/merge-objects
+  status: 301!
+- from: /js/s/merge
+  to: /js/s/merge-objects
+  status: 301!
+- from: /js/s/is-alpha
+  to: /js/s/is-alpha-numeric
+  status: 301!
+- from: /js/s/accumulate
+  to: /js/s/partial-sum-array
+  status: 301!
+- from: /js/s/reduce-successive
+  to: /js/s/partial-sum-array
+  status: 301!
+- from: /js/s/successive-values-array
+  to: /js/s/partial-sum-array
+  status: 301!
+- from: /js/s/matches
+  to: /js/s/match-object-properties
+  status: 301!
+- from: /js/s/matches-with
+  to: /js/s/match-object-properties
+  status: 301!
+- from: /js/s/function-based-object-property-matches
+  to: /js/s/match-object-properties
+  status: 301!
+- from: /js/s/x-prod
+  to: /js/s/cartesian-product-of-arrays
+  status: 301!
+- from: /js/s/cross-product-of-arrays
+  to: /js/s/cartesian-product-of-arrays
+  status: 301!
+- from: /js/s/cartesian-product
+  to: /js/s/cartesian-product-of-arrays
+  status: 301!
+- from: /js/s/assert-valid-keys
+  to: /js/s/validate-object-properties
+  status: 301!
+- from: /js/s/assert-object-key-validity
+  to: /js/s/validate-object-properties
+  status: 301!
+- from: /js/s/common-keys
+  to: /js/s/validate-object-properties
+  status: 301!
+- from: /git/s/manual-find-commit-with-bug
+  to: /git/s/find-commit-with-bug
+  status: 301!
+- from: /git/s/automatic-find-commit-with-bug
+  to: /git/s/find-commit-with-bug
+  status: 301!
+- from: /git/s/apply-latest-stash
+  to: /git/s/stashing
+  status: 301!
+- from: /git/s/apply-stash
+  to: /git/s/stashing
+  status: 301!
+- from: /git/s/delete-stash
+  to: /git/s/stashing
+  status: 301!
+- from: /git/s/delete-stashes
+  to: /git/s/stashing
+  status: 301!
+- from: /git/s/list-stashes
+  to: /git/s/stashing
+  status: 301!
+- from: /git/s/save-stash
+  to: /git/s/stashing
+  status: 301!
+- from: /git/s/delete-detached-branches
+  to: /git/s/delete-branch
+  status: 301!
+- from: /git/s/delete-merged-branches
+  to: /git/s/delete-branch
+  status: 301!
+- from: /git/s/delete-remote-branch
+  to: /git/s/delete-branch
+  status: 301!
+- from: /git/s/stage-files
+  to: /git/s/stage-unstage-files
+  status: 301!
+- from: /git/s/unstage-files
+  to: /git/s/stage-unstage-files
+  status: 301!
+- from: /git/s/rename-remote-branch
+  to: /git/s/rename-branch
+  status: 301!
+- from: /git/s/set-text-editor
+  to: /git/s/configure-default-text-editor
+  status: 301!
+- from: /git/s/discard-untracked
+  to: /git/s/discard-changes
+  status: 301!
+- from: /git/s/discard-uncommitted
+  to: /git/s/discard-changes
+  status: 301!
+- from: /git/s/view-remote-url
+  to: /git/s/view-change-remote-url
+  status: 301!
+- from: /git/s/change-remote-url
+  to: /git/s/view-change-remote-url
+  status: 301!
+- from: /git/s/create-empty-commit
+  to: /git/s/create-commit
+  status: 301!
+- from: /git/s/commit-without-hooks
+  to: /git/s/create-commit
+  status: 301!
+- from: /git/s/view-commits-by-author
+  to: /git/s/view-commits-by-author-or-committer
+  status: 301!
+- from: /git/s/add-submodule
+  to: /git/s/submodules
+  status: 301!
+- from: /git/s/delete-submodule
+  to: /git/s/submodules
+  status: 301!
+- from: /git/s/clone-missing-submodules
+  to: /git/s/submodules
+  status: 301!
+- from: /git/s/pull-all-submodules
+  to: /git/s/submodules
+  status: 301!
+- from: /git/s/switch-to-last-branch
+  to: /git/s/switch-to-branch
+  status: 301!
+- from: /c/css-centering/*
+  to: /css/s/centering
+  status: 301!
+- from: /c/css-centering/*
+  to: /css/s/centering
+  status: 301!
+- from: /articles/s/css-centering
+  to: /css/s/centering
+  status: 301!
+- from: /articles/s/css-centering
+  to: /css/s/flexbox-centering
+  status: 301!
+- from: /articles/s/css-centering
+  to: /css/s/grid-centering
+  status: 301!
+- from: /articles/s/css-centering
+  to: /css/s/transform-centering
+  status: 301!
+- from: /articles/s/css-centering
+  to: /css/s/display-table-centering
+  status: 301!
+- from: /python/s/key-of-min
+  to: /python/s/key-of-min-max
+  status: 301!
+- from: /python/s/key-of-max
+  to: /python/s/key-of-min-max
+  status: 301!
+- from: /c/css-background-patterns/*
+  to: /css/s/10-css-background-patterns
+  status: 301!
+- from: /css/background-patterns/*
+  to: /css/s/10-css-background-patterns
+  status: 301!
+- from: /css/s/stripes-pattern
+  to: /css/s/10-css-background-patterns
+  status: 301!
+- from: /css/s/polka-dot-pattern
+  to: /css/s/10-css-background-patterns
+  status: 301!
+- from: /css/s/zig-zag-pattern
+  to: /css/s/10-css-background-patterns
+  status: 301!
+- from: /css/s/checkerboard-pattern
+  to: /css/s/10-css-background-patterns
+  status: 301!
+- from: /css/s/circle
+  to: /css/s/shapes
+  status: 301!
+- from: /css/s/triangle
+  to: /css/s/shapes
+  status: 301!
+- from: /js/s/require-uncached
+  to: /js/s/reload-module
+  status: 301!
+- from: /js/s/uncached-module-require
+  to: /js/s/reload-module
+  status: 301!
+- from: /js/s/count-substrings
+  to: /js/s/count-occurences
+  status: 301!
+- from: /js/s/validate-number
+  to: /js/s/number-validation
+  status: 301!
+- from: /js/s/day-name
+  to: /js/s/weekday-name
+  status: 301!
+- from: /js/s/jso-nto-csv
+  to: /js/s/convert-csv-to-array-object-or-json
+  status: 301!
+- from: /js/s/json-to-csv
+  to: /js/s/convert-csv-to-array-object-or-json
+  status: 301!
+- from: /js/s/array-to-csv
+  to: /js/s/convert-csv-to-array-object-or-json
+  status: 301!
+- from: /js/s/csv-to-json
+  to: /js/s/convert-csv-to-array-object-or-json
+  status: 301!
+- from: /js/s/csv-to-array
+  to: /js/s/convert-csv-to-array-object-or-json
+  status: 301!
+- from: /js/s/pluralize
+  to: /js/s/pluralize-string
+  status: 301!
+- from: /articles/s/js-object-freeze-vs-seal
+  to: /js/s/deep-freeze-object
+  status: 301!
+- from: /js/s/object-freeze-vs-seal
+  to: /js/s/deep-freeze-object
+  status: 301!
+- from: /articles/s/javascript-deep-freeze-object
+  to: /js/s/deep-freeze-object
+  status: 301!
+- from: /js/s/deep-freeze
+  to: /js/s/deep-freeze-object
+  status: 301!
+- from: /js/s/frozen-set
+  to: /js/s/deep-freeze-object
+  status: 301!
+- from: /js/s/freeze-set-object
+  to: /js/s/deep-freeze-object
+  status: 301!
+- from: /js/s/freeze-set-or-map
+  to: /js/s/deep-freeze-object
+  status: 301!
+- from: /c/react-rendering/*
+  to: /react/s/rendering
+  status: 301!
+- from: /react/rendering/*
+  to: /react/s/rendering
+  status: 301!
+- from: /articles/s/react-rendering-basics
+  to: /react/s/rendering
+  status: 301!
+- from: /react/s/rendering-basics
+  to: /react/s/rendering
+  status: 301!
+- from: /articles/s/react-rendering-optimization
+  to: /react/s/rendering
+  status: 301!
+- from: /react/s/rendering-optimization
+  to: /react/s/rendering
+  status: 301!
+- from: /articles/s/react-rendering-state
+  to: /react/s/rendering
+  status: 301!
+- from: /react/s/rendering-state
+  to: /react/s/rendering
+  status: 301!
+- from: /articles/s/js-frequency-map-data-structure
+  to: /js/s/count-grouped-elements
+  status: 301!
+- from: /js/s/frequency-map-data-structure
+  to: /js/s/count-grouped-elements
+  status: 301!
+- from: /articles/s/javascript-modify-url-without-reload
+  to: /js/s/modify-url-without-reload
+  status: 301!
+- from: /js/s/redirect
+  to: /js/s/modify-url-without-reload
+  status: 301!
+- from: /js/s/redirect-to-url
+  to: /js/s/modify-url-without-reload
+  status: 301!
+- from: /js/s/get-base-url
+  to: /js/s/get-base-url-or-url-params
+  status: 301!
+- from: /js/s/get-url-parameters
+  to: /js/s/get-base-url-or-url-params
+  status: 301!
+- from: /js/s/rearg
+  to: /js/s/reorder-function-arguments
+  status: 301!
+- from: /js/s/rearrange-function-arguments
+  to: /js/s/reorder-function-arguments
+  status: 301!
+- from: /js/s/flip
+  to: /js/s/reorder-function-arguments
+  status: 301!
+- from: /js/s/flip-function-arguments
+  to: /js/s/reorder-function-arguments
+  status: 301!
+- from: /js/s/generator-for-range
+  to: /js/s/range-generator
+  status: 301!
+- from: /js/s/pipe-async-functions
+  to: /js/s/async-function-composition
+  status: 301!
+- from: /js/s/index-by
+  to: /js/s/group-array-elements
+  status: 301!
+- from: /js/s/function-based-array-indexing
+  to: /js/s/group-array-elements
+  status: 301!
+- from: /js/s/group-by
+  to: /js/s/group-array-elements
+  status: 301!
+- from: /js/s/function-based-array-element-grouping
+  to: /js/s/group-array-elements
+  status: 301!
+- from: /js/s/get-elements-bigger-than-viewport
+  to: /js/s/get-elements-wider-than-viewport
+  status: 301!
+- from: /js/s/add-event-listener-all
+  to: /js/s/add-remove-multiple-event-listeners-single-element
+  status: 301!
+- from: /js/s/add-multiple-events
+  to: /js/s/add-remove-event-listener-multiple-elements
+  status: 301!
+- from: /js/s/add-multiple-event-listeners
+  to: /js/s/add-remove-event-listener-multiple-elements
+  status: 301!
+- from: /js/s/remove-event-listener-all
+  to: /js/s/add-remove-event-listener-multiple-elements
+  status: 301!
+- from: /js/s/remove-multiple-event-listeners
+  to: /js/s/add-remove-event-listener-multiple-elements
+  status: 301!
+- from: /articles/s/javascript-object-comparison
+  to: /js/s/object-comparison
+  status: 301!
+- from: /js/s/equals
+  to: /js/s/object-comparison
+  status: 301!
+- from: /js/s/deep-equality-comparison
+  to: /js/s/object-comparison
+  status: 301!
+- from: /js/s/get-ancestors
+  to: /js/s/get-ancestors-parents-siblings-children
+  status: 301!
+- from: /js/s/get-parents-until
+  to: /js/s/get-ancestors-parents-siblings-children
+  status: 301!
+- from: /js/s/get-siblings
+  to: /js/s/get-ancestors-parents-siblings-children
+  status: 301!
+- from: /js/s/find-closest-matching-node
+  to: /js/s/get-ancestors-parents-siblings-children
+  status: 301!
+- from: /js/s/element-contains
+  to: /js/s/get-ancestors-parents-siblings-children
+  status: 301!
+- from: /js/s/find-closest-anchor
+  to: /js/s/get-ancestors-parents-siblings-children
+  status: 301!
+- from: /react/s/use-click-outside
+  to: /react/s/use-click-outside-inside
+  status: 301!
+- from: /react/s/use-click-inside
+  to: /react/s/use-click-outside-inside
+  status: 301!
+- from: /articles/s/react-use-interval-explained
+  to: /react/s/use-interval
+  status: 301!
+- from: /react/s/use-interval-explained
+  to: /react/s/use-interval
+  status: 301!
+- from: /react/s/use-toggler
+  to: /react/s/advanced-react-state-hooks
+  status: 301!
+- from: /react/s/use-map
+  to: /react/s/advanced-react-state-hooks
+  status: 301!
+- from: /react/s/use-set
+  to: /react/s/advanced-react-state-hooks
+  status: 301!
+- from: /react/s/use-default
+  to: /react/s/advanced-react-state-hooks
+  status: 301!
+- from: /react/s/use-get-set
+  to: /react/s/advanced-react-state-hooks
+  status: 301!
+- from: /react/s/use-merge-state
+  to: /react/s/advanced-react-state-hooks
+  status: 301!
+- from: /react/s/use-previous
+  to: /react/s/advanced-react-state-hooks
+  status: 301!
+- from: /react/s/use-debounce
+  to: /react/s/advanced-react-state-hooks
+  status: 301!
+- from: /react/s/use-delayed-state
+  to: /react/s/advanced-react-state-hooks
+  status: 301!
+- from: /react/s/use-form
+  to: /react/s/advanced-react-state-hooks
+  status: 301!
+- from: /react/s/use-component-did-mount
+  to: /react/s/lifecycle-hooks
+  status: 301!
+- from: /react/s/use-component-did-update
+  to: /react/s/lifecycle-hooks
+  status: 301!
+- from: /react/s/use-component-will-unmount
+  to: /react/s/lifecycle-hooks
+  status: 301!
+- from: /react/s/use-local-storage
+  to: /react/s/persist-state-to-storage
+  status: 301!
+- from: /react/s/use-session-storage
+  to: /react/s/persist-state-to-storage
+  status: 301!
+- from: /react/s/use-persisted-state
+  to: /react/s/persist-state-to-storage
+  status: 301!
+- from: /react/s/use-hash
+  to: /react/s/use-hash-search-param
+  status: 301!
+- from: /react/s/use-search-param
+  to: /react/s/use-hash-search-param
+  status: 301!
+- from: /react/s/use-unload
+  to: /react/s/window-global-environment-ssr-hooks
+  status: 301!
+- from: /react/s/use-navigator-on-line
+  to: /react/s/window-global-environment-ssr-hooks
+  status: 301!
+- from: /react/s/use-window-size
+  to: /react/s/window-global-environment-ssr-hooks
+  status: 301!
+- from: /react/s/use-on-window-resize
+  to: /react/s/window-global-environment-ssr-hooks
+  status: 301!
+- from: /react/s/use-on-window-scroll
+  to: /react/s/window-global-environment-ssr-hooks
+  status: 301!
+- from: /react/s/use-media-query
+  to: /react/s/window-global-environment-ssr-hooks
+  status: 301!
+- from: /react/s/use-ssr
+  to: /react/s/window-global-environment-ssr-hooks
+  status: 301!
+- from: /react/s/use-isomporphic-effect
+  to: /react/s/window-global-environment-ssr-hooks
+  status: 301!
+- from: /react/s/use-on-global-event
+  to: /react/s/event-listener-hooks
+  status: 301!
+- from: /react/s/use-event-listener
+  to: /react/s/event-listener-hooks
+  status: 301!
+- from: /react/s/use-key-press
+  to: /react/s/event-listener-hooks
+  status: 301!
+- from: /react/s/use-hover
+  to: /react/s/event-listener-hooks
+  status: 301!
+- from: /react/s/select
+  to: /react/s/selected-option
+  status: 301!
+- from: /react/s/mailto
+  to: /react/s/mailto-callto
+  status: 301!
+- from: /react/s/callto
+  to: /react/s/mailto-callto
+  status: 301!
+- from: /react/s/text-area
+  to: /react/s/limited-textarea
+  status: 301!
+- from: /react/s/limited-word-textarea
+  to: /react/s/limited-textarea
+  status: 301!
+- from: /react/s/data-table
+  to: /react/s/data-mapping-components
+  status: 301!
+- from: /react/s/mapped-table
+  to: /react/s/data-mapping-components
+  status: 301!
+- from: /react/s/data-list
+  to: /react/s/data-mapping-components
+  status: 301!
+- from: /react/s/tree-view
+  to: /react/s/data-mapping-components
+  status: 301!
+- from: /react/s/collapse
+  to: /react/s/collapsable-content-components
+  status: 301!
+- from: /react/s/accordion
+  to: /react/s/collapsable-content-components
+  status: 301!
+- from: /react/s/tabs
+  to: /react/s/collapsable-content-components
+  status: 301!
+- from: /react/s/carousel
+  to: /react/s/collapsable-content-components
+  status: 301!
+- from: /react/s/alert
+  to: /react/s/tooltip-alert-modal
+  status: 301!
+- from: /react/s/modal
+  to: /react/s/tooltip-alert-modal
+  status: 301!
+- from: /react/s/tooltip
+  to: /react/s/tooltip-alert-modal
+  status: 301!
+- from: /css/s/truncate-text
+  to: /css/s/text-truncation
+  status: 301!
+- from: /css/s/truncate-text-multiline
+  to: /css/s/text-truncation
+  status: 301!
+- from: /css/s/line-clamp
+  to: /css/s/text-truncation
+  status: 301!
+- from: /css/s/drop-cap
+  to: /css/s/drop-caps
+  status: 301!
+- from: /css/s/height-transition
+  to: /css/s/content-aware-height-transition
+  status: 301!
+- from: /python/s/index-of-all
+  to: /python/s/find-matches-list-dictionary
+  status: 301!
+- from: /python/s/find-index
+  to: /python/s/find-matches-list-dictionary
+  status: 301!
+- from: /python/s/find-last-index
+  to: /python/s/find-matches-list-dictionary
+  status: 301!
+- from: /python/s/find-index-of-all
+  to: /python/s/find-matches-list-dictionary
+  status: 301!
+- from: /python/s/find
+  to: /python/s/find-matches-list-dictionary
+  status: 301!
+- from: /python/s/find-last
+  to: /python/s/find-matches-list-dictionary
+  status: 301!
+- from: /python/s/find-key
+  to: /python/s/find-matches-list-dictionary
+  status: 301!
+- from: /python/s/find-keys
+  to: /python/s/find-matches-list-dictionary
+  status: 301!
+- from: /python/s/initial
+  to: /python/s/first-last-initial-head-tail
+  status: 301!
+- from: /python/s/last
+  to: /python/s/first-last-initial-head-tail
+  status: 301!
+- from: /python/s/head
+  to: /python/s/first-last-initial-head-tail
+  status: 301!
+- from: /python/s/tail
+  to: /python/s/first-last-initial-head-tail
+  status: 301!
+- from: /python/s/decapitalize
+  to: /python/s/string-capitalize-camel-snake-kebab
+  status: 301!
+- from: /python/s/capitalize
+  to: /python/s/string-capitalize-camel-snake-kebab
+  status: 301!
+- from: /python/s/capitalize-every-word
+  to: /python/s/string-capitalize-camel-snake-kebab
+  status: 301!
+- from: /python/s/camel
+  to: /python/s/string-capitalize-camel-snake-kebab
+  status: 301!
+- from: /python/s/snake
+  to: /python/s/string-capitalize-camel-snake-kebab
+  status: 301!
+- from: /python/s/kebab
+  to: /python/s/string-capitalize-camel-snake-kebab
+  status: 301!
+- from: /python/s/initialize-list-with-range
+  to: /python/s/initialize-list-with-range-value-daterange
+  status: 301!
+- from: /python/s/initialize-list-with-values
+  to: /python/s/initialize-list-with-range-value-daterange
+  status: 301!
+- from: /python/s/initialize-2-d-list
+  to: /python/s/initialize-list-with-range-value-daterange
+  status: 301!
+- from: /python/s/daterange
+  to: /python/s/initialize-list-with-range-value-daterange
+  status: 301!
+- from: /python/s/unique-elements
+  to: /python/s/filter-unique-list-elements
+  status: 301!
+- from: /python/s/filter-non-unique
+  to: /python/s/filter-unique-list-elements
+  status: 301!
+- from: /python/s/filter-unique
+  to: /python/s/filter-unique-list-elements
+  status: 301!
+- from: /python/s/chunk-into-n
+  to: /python/s/chunk-list
+  status: 301!
+- from: /python/s/chunk
+  to: /python/s/chunk-list
+  status: 301!
+- from: /python/s/is-weekend
+  to: /python/s/is-weekend-or-weekday
+  status: 301!
+- from: /python/s/is-weekday
+  to: /python/s/is-weekend-or-weekday
+  status: 301!
+- from: /python/s/rgb-to-hex
+  to: /python/s/hex-to-rgb
+  status: 301!
+- from: /python/s/days-diff
+  to: /python/s/date-difference
+  status: 301!
+- from: /python/s/months-diff
+  to: /python/s/date-difference
+  status: 301!
+- from: /python/s/min-element-index
+  to: /python/s/min-max-element-index
+  status: 301!
+- from: /python/s/max-element-index
+  to: /python/s/min-max-element-index
+  status: 301!
+- from: /python/s/days-ago
+  to: /python/s/days-ago-days-from-now-add-subtract-dates
+  status: 301!
+- from: /python/s/days-from-now
+  to: /python/s/days-ago-days-from-now-add-subtract-dates
+  status: 301!
+- from: /python/s/add-days
+  to: /python/s/days-ago-days-from-now-add-subtract-dates
+  status: 301!
+- from: /python/s/to-dictionary
+  to: /python/s/dictionary-to-list
+  status: 301!
+- from: /python/s/map-dictionary
+  to: /python/s/dictionary-to-list
+  status: 301!
+- from: /python/s/dict-to-list
+  to: /python/s/dictionary-to-list
+  status: 301!
+- from: /css/s/horizontal-scroll-snap
+  to: /css/s/scroll-snap
+  status: 301!
+- from: /css/s/vertical-scroll-snap
+  to: /css/s/scroll-snap
+  status: 301!
+- from: /css/s/clamp
+  to: /css/s/fluid-typography
+  status: 301!
+- from: /css/button-transitions/p/1
+  to: /css/s/button-hover-transitions
+  status: 301!
+- from: /css/s/button-hover-grow-animation
+  to: /css/s/button-hover-transitions
+  status: 301!
+- from: /css/s/button-hover-shrink-animation
+  to: /css/s/button-hover-transitions
+  status: 301!
+- from: /css/s/button-hover-fill-animation
+  to: /css/s/button-hover-transitions
+  status: 301!
+- from: /css/s/button-focus-swing-animation
+  to: /css/s/button-hover-transitions
+  status: 301!
+- from: /css/s/button-border-animation
+  to: /css/s/button-hover-transitions
+  status: 301!
+- from: /css/s/sticky-list-titles
+  to: /css/s/floating-or-sticky-list-titles
+  status: 301!
+- from: /css/s/floating-list-titles
+  to: /css/s/floating-or-sticky-list-titles
+  status: 301!
+- from: /css/s/bouncing-loader
+  to: /css/s/loaders
+  status: 301!
+- from: /css/s/pulse-loader
+  to: /css/s/loaders
+  status: 301!
+- from: /css/s/donut-spinner
+  to: /css/s/loaders
+  status: 301!
+- from: /css/s/zebra-striped-list
+  to: /css/s/zebra-striped-list-or-table
+  status: 301!
+- from: /css/s/border-with-top-triangle
+  to: /css/s/speech-bubble
+  status: 301!
+- from: /css/s/horizontal-gallery
+  to: /css/s/horizontal-vertical-gallery
+  status: 301!
+- from: /css/s/vertical-gallery
+  to: /css/s/horizontal-vertical-gallery
+  status: 301!
+- from: /css/s/text-backdrop-overlay
+  to: /css/s/image-text-overlay
+  status: 301!
+- from: /css/s/rotating-card
+  to: /css/s/card-hover-effects
+  status: 301!
+- from: /css/s/shifting-card
+  to: /css/s/card-hover-effects
+  status: 301!
+- from: /css/s/hover-perspective
+  to: /css/s/card-hover-effects
+  status: 301!
+- from: /css/s/custom-checkbox
+  to: /css/s/custom-checkbox-radio
+  status: 301!
+- from: /css/s/custom-radio
+  to: /css/s/custom-checkbox-radio
+  status: 301!
+- from: /css/s/etched-text
+  to: /css/s/engraved-embossed-text
   status: 301!

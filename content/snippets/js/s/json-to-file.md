@@ -1,11 +1,11 @@
 ---
 title: How can I save a JSON object to a file using JavaScript?
 shortTitle: JSON to file
-type: question
 language: javascript
 tags: [node, browser]
 cover: travel-mug-3
 excerpt: Learn how to write a JSON object to a file, both using Node.js and in the browser.
+listed: true
 dateModified: 2024-02-01
 ---
 

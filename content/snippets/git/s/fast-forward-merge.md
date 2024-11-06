@@ -1,11 +1,11 @@
 ---
 title: How does Git's fast-forward mode work?
 shortTitle: Fast-forward merge
-type: question
 language: git
 tags: [branch]
 cover: boats
 excerpt: Learn about Git's fast-forward mode and its benefits when merging branches, so you can decide if it's a good fit for you and your team.
+listed: true
 dateModified: 2021-07-15
 ---
 

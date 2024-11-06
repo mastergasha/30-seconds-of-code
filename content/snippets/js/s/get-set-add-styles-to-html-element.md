@@ -1,11 +1,11 @@
 ---
 title: Get, set or add styles to an HTML element with JavaScript
 shortTitle: Get, set or add styles to an HTML element
-type: story
 language: javascript
 tags: [browser,css]
 cover: frog-blue-flower
 excerpt: Learn how to retrieve and manipulate the styles of an HTML element easily and efficiently with JavaScript.
+listed: true
 dateModified: 2024-02-21
 ---
 

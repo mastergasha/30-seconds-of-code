@@ -1,11 +1,11 @@
 ---
 title: What are named tuples in Python?
 shortTitle: Named Tuples
-type: question
 language: python
 tags: [list,dictionary]
 cover: mask-quiet
 excerpt: Understand Python's named tuples and start using them in your projects today.
+listed: false
 dateModified: 2021-06-12
 ---
 

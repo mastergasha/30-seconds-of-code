@@ -1,11 +1,11 @@
 ---
 title: Check if a JavaScript object has a given value or key
 shortTitle: Object has value or key
-type: story
 language: javascript
 tags: [object]
 cover: plant-corner
 excerpt: When working with objects, you'll often need to check if a value or key exists, and these snippets will show you how to do just that.
+listed: true
 dateModified: 2024-02-10
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: A cautionary tale about JavaScript callbacks
 shortTitle: Callback pitfalls
-type: story
 language: javascript
 tags: [function]
 cover: rabbit-call
 excerpt: JavaScript callbacks are especially tricky when you're not careful. Take a deeper dive into potential issues and how to avoid them.
+listed: true
 dateModified: 2021-07-01
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Generate a random number or integer in a range with JavaScript
 shortTitle: Random number or integer in range
-type: story
 language: javascript
 tags: [math,random]
 cover: white-laptop
 excerpt: Enhance JavaScript's `Math.random()` to generate a random number or integer in a specified range.
+listed: true
 dateModified: 2024-03-12
 ---
 

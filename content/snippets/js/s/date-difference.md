@@ -1,11 +1,11 @@
 ---
 title: How to calculate date difference in JavaScript
 shortTitle: Date difference
-type: story
 language: javascript
 tags: [date]
 cover: laptop-journey
 excerpt: Learn how to calculate date difference in seconds, minutes, hours, days etc. in vanilla JavaScript.
+listed: true
 dateModified: 2024-01-06
 ---
 

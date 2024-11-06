@@ -1,11 +1,11 @@
 ---
 title: Check if a JavaScript array has only one or many matches
 shortTitle: Array has only one or many matches
-type: story
 language: javascript
 tags: [array]
 cover: interior-10
 excerpt: Learn how to check if an array has one or more values matching the given function, and how to find the matching elements.
+listed: true
 dateModified: 2024-01-30
 ---
 

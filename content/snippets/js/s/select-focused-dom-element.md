@@ -1,11 +1,11 @@
 ---
 title: Select the focused DOM element with JavaScript
 shortTitle: Focused DOM element
-type: tip
 language: javascript
 tags: [browser]
 cover: horse-sunset
 excerpt: Here's a quick and easy way to select the currently focused DOM element in JavaScript.
+listed: true
 dateModified: 2022-10-23
 ---
 

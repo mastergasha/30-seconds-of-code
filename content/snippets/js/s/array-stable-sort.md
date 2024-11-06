@@ -1,11 +1,11 @@
 ---
 title: Is JavaScript's array sorting stable?
 shortTitle: Stable array sorting
-type: question
 language: javascript
 tags: [array]
 cover: horse-sunset
 excerpt: Understand why JavaScript's built-in array sorting is not stable and how to implement a stable sorting algorithm.
+listed: true
 dateModified: 2024-03-21
 ---
 

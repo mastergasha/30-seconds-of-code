@@ -1,11 +1,11 @@
 ---
 title: Generate a random hex color code in JavaScript
 shortTitle: Random hex color code
-type: tip
 language: javascript
 tags: [math,random]
 cover: industrial-tokyo
 excerpt: Learn how to generate a random hexadecimal color code with a few lines of JavaScript.
+listed: true
 dateModified: 2024-02-02
 ---
 

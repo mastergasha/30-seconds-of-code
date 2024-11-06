@@ -1,11 +1,11 @@
 ---
 title: Merge a branch in Git
 shortTitle: Merge branch
-type: story
 language: git
 tags: [repository,branch]
 cover: meteora
 excerpt: Learn how to merge a branch in Git with or without creating a merge commit, depending on your team's workflow.
+listed: true
 dateModified: 2023-05-26
 ---
 

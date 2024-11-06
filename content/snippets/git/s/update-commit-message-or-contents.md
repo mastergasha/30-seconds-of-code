@@ -1,11 +1,11 @@
 ---
 title: Change the last commit's message or contents in Git
 shortTitle: Amend last commit
-type: story
 language: git
 tags: [commit]
 cover: greek-coffee
 excerpt: Learn how to effortlessly amend the last commit's message or contents using Git and fix any mistakes you might have made.
+listed: true
 dateModified: 2023-05-23
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Date of yesterday, today or tomorrow in JavaScript
 shortTitle: Date of yesterday, today or tomorrow
-type: story
 language: javascript
 tags: [date]
 cover: travel-mug-2
 excerpt: Easily calculate the date of yesterday, today or tomorrow in JavaScript.
+listed: true
 dateModified: 2024-01-06
 ---
 

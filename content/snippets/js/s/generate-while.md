@@ -1,11 +1,11 @@
 ---
 title: Create a JavaScript generator function based on a condition
 shortTitle: Generate while condition is met
-type: tip
 language: javascript
 tags: [function,generator]
 cover: yellow-sofa
 excerpt: Learn how to create a generator function that keeps producing new values as long as the given condition is met.
+listed: true
 dateModified: 2024-01-22
 ---
 

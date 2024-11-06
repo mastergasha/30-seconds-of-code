@@ -1,11 +1,11 @@
 ---
 title: Remove the first or last n elements from a JavaScript array
 shortTitle: Remove first or last n array elements
-type: story
 language: javascript
 tags: [array]
 cover: metropolitan-window
 excerpt: Master JavaScript array element removal with these simple techniques.
+listed: true
 dateModified: 2023-12-24
 ---
 

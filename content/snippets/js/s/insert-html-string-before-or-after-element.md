@@ -1,11 +1,11 @@
 ---
 title: Insert HTML string before or after element using JavaScript
 shortTitle: Insert HTML string before or after element
-type: story
 language: javascript
 tags: [browser]
 cover: malibu
 excerpt: Learn how to insert an HTML string before or after the start of a specified element using JavaScript.
+listed: true
 dateModified: 2024-01-29
 ---
 

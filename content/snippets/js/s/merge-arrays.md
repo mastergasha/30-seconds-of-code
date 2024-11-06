@@ -1,11 +1,11 @@
 ---
 title: How do I merge two arrays in JavaScript?
 shortTitle: Merge arrays
-type: question
 language: javascript
 tags: [array]
 cover: arrays
 excerpt: Arrays are one of the most used data types in any programming language. Learn how to merge two arrays in JavaScript with this short guide.
+listed: true
 dateModified: 2021-06-12
 ---
 

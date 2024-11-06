@@ -1,11 +1,11 @@
 ---
 title: Check if a string is a yes/no answer with JavaScript
 shortTitle: Yes/no answer
-type: tip
 language: javascript
 tags: [string,regexp]
 cover: fort-lamp
 excerpt: Quickly and easily check if a string is a yes/no answer to a boolean question in your CLI programs.
+listed: true
 dateModified: 2023-12-15
 ---
 

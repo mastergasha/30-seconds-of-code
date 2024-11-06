@@ -1,11 +1,11 @@
 ---
 title: How can I convert between hexadecimal, RGB, HSL and HSB color formats in JavaScript?
 shortTitle: Color format conversion
-type: story
 language: javascript
 tags: [math,string]
 cover: lemon-tea
 excerpt: Learn how to easily convert between the various color formats, using JavaScript and a few simple formulas.
+listed: true
 dateModified: 2024-03-05
 ---
 

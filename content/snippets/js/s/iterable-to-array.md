@@ -1,11 +1,11 @@
 ---
 title: How do I convert an iterable to an array in JavaScript?
 shortTitle: Iterable to array
-type: question
 language: javascript
 tags: [object,array,string]
 cover: waves
 excerpt: Learn how to use the JavaScript ES6 spread syntax to converting iterables to arrays and level up your code today.
+listed: true
 dateModified: 2021-06-12
 ---
 

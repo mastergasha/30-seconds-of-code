@@ -1,17 +1,19 @@
 ---
-title: Longest item in array
-type: snippet
+title: Find the longest element in a JavaScript array
+shortTitle: Longest array element
 language: javascript
 tags: [array]
 cover: interior-14
-dateModified: 2020-10-22
+excerpt: Find the element with the greatest `length` in a JavaScript array.
+listed: true
+dateModified: 2024-08-04
 ---
 
-Takes any number of iterable objects or objects with a `length` property and returns the longest one.
+I've often found a need to **find the longest element** in an array of strings or arrays. It has come especially handy when solving coding challenges. And it's an easy problem to solve, too.
 
-- Use `Array.prototype.reduce()`, comparing the length of objects to find the longest one.
-- If multiple objects have the same length, the first one will be returned.
-- Returns `undefined` if no arguments are provided.
+All you need to do is create a function that takes any number of iterable objects or objects with a `length` property and returns the longest one. This can be done using `Array.prototype.reduce()` to **compare the length** of objects.
+
+If multiple objects have the **same length**, the first one will be returned. If **no arguments** are provided, the function will return `undefined`.
 
 ```js
 const longestItem = (...vals) =>

@@ -1,11 +1,11 @@
 ---
 title: Set up Python 3 and pip 3 as default
 shortTitle: Python 3 and pip 3 setup
-type: tip
 language: python
 tags: [setup]
 cover: avocado-slices
 excerpt: A very common problem when working with Python is having to remember the correct version. Luckily, there's an easy fix for that.
+listed: false
 dateModified: 2021-06-12
 ---
 

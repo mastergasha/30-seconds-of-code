@@ -1,11 +1,11 @@
 ---
 title: Get the scroll position of the current page using JavaScript
 shortTitle: Get scroll position
-type: tip
 language: javascript
 tags: [browser]
 cover: tranquil-lake
 excerpt: Calculate the coordinates of the current scroll position in the browser window using JavaScript.
+listed: true
 dateModified: 2024-02-25
 ---
 

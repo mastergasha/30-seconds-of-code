@@ -1,0 +1,85 @@
+#!/usr/bin/env node
+import { exec } from 'child_process';
+import ContentUtils from '#src/lib/contentUtils/contentUtils.js';
+import Loader from '#src/lib/loader.js';
+
+const args = process.argv.slice(2);
+
+if (args.length === 0 || args[0] === 'help') {
+  console.log('Usage: prepare [command] [options]\n');
+  console.log('Commands:');
+  console.log(
+    '  full    - Prepare all assets, content, and generate all files'
+  );
+  console.log(
+    '  dev     - Prepare content and generate Astro content and search index'
+  );
+  console.log('  content - Prepare content');
+  console.log('  watch   - Watch content and prepare content on change');
+  console.log('  assets  - Prepare assets');
+  console.log('    --force, -f - Force assets preparation');
+  console.log('  create [type] [directory] [name]  - Create new content');
+  console.log(
+    '    [type]      - Type of content to create (snippet or collection)'
+  );
+  console.log('    [directory] - Directory to create content in');
+  console.log('    [name]      - Name of content to create');
+  console.log('  help    - Show this help');
+} else if (args[0] === 'full') {
+  // 0. Run ContentUtils to prepare the assets
+  await ContentUtils.prepareAssets({ force: false });
+  // 1. Run ContentUtils to prepare the .content/content.json file
+  await ContentUtils.prepareContent();
+  // 2. Load modules
+  const modules = Loader.loadModules();
+  const { AstroContent, SearchIndex, Redirects, Feed, Sitemap, TimestampDump } =
+    modules;
+  // 3. Import the content
+  const data = Loader.importData();
+  // 4. Generate Astro content
+  AstroContent.generate();
+  // 5. Generate search index
+  SearchIndex.generate();
+  // 6. Generate redirects
+  Redirects.generate();
+  // 7. Generate feed
+  Feed.generate();
+  // 8. Generate sitemap
+  Sitemap.generate();
+  // 9. Generate timestamp dump
+  TimestampDump.generate();
+} else if (args[0] === 'dev') {
+  // 0. Set NODE_ENV to development
+  process.env.NODE_ENV = 'development';
+  // 1. Run ContentUtils to prepare the .content/content.json file
+  await ContentUtils.prepareContent();
+  // 2. Load modules
+  const modules = Loader.loadModules();
+  const { AstroContent, SearchIndex, TimestampDump } = modules;
+  // 3. Import the content
+  const data = Loader.importData();
+  // 4. Generate Astro content
+  AstroContent.generate();
+  // 5. Generate search index
+  SearchIndex.generate();
+  // 6. Generate timestamp dump
+  TimestampDump.generate();
+} else if (args[0] === 'watch') {
+  ContentUtils.watchContent(() => exec('bin/prepare dev'));
+} else if (args[0] === 'content') {
+  ContentUtils.prepareContent();
+} else if (args[0] === 'assets') {
+  const force = args[1] === '--force' || args[1] === '-f';
+  ContentUtils.prepareAssets({ force });
+} else if (args[0] === 'create') {
+  if (process.argv.length < 4) {
+    console.log('Usage: prepare create [type] [directory] [name]');
+    console.error('Not enough arguments');
+    process.exit(1);
+  }
+
+  ContentUtils.createContent(args[1], args[2], args[3]);
+} else {
+  console.log('Invalid command');
+  process.exit(1);
+}

@@ -1,19 +1,23 @@
 ---
 title: What are the differences between var, let and const in JavaScript?
 shortTitle: Var, let and const
-type: question
 language: javascript
 tags: [type,variable]
 cover: green-css
 excerpt: JavaScript variables can be declared a handful of ways. However, understanding their differences can drastically change the way you code.
-dateModified: 2021-12-02
+listed: true
+dateModified: 2024-05-17
 ---
 
-JavaScript has three variable declaration statements: `var`, `let` and `const`. The latter two were added in ES6, whereas `var` existed since previous versions. One of the first things to notice is that `const` defines constants (i.e. values that will not be reassigned), whereas `var` and `let` define variables. Yet, `var` behaves differently from both `let` and `const` in various other ways.
+JavaScript has three **variable declaration statements**: `var`, `let` and `const`. The latter two were added in **ES6**, whereas `var` existed since previous versions. One of the first things to notice is that `const` defines constants (i.e. values that will not be reassigned), whereas `var` and `let` define variables. Yet, `var` behaves differently from both `let` and `const` in various other ways.
+
+> [!NOTE]
+>
+> As I'm revising this article in May 2024, the glory days of `var` are long gone. Nowadays using `var` is considered a **code smell** and should generally be avoided. If you're working on a legacy project that uses `var`, consider refactoring it to use `let` or `const` instead.
 
 ## Scope
 
-Variables declared with `var` are function scoped, in contrast to variables declared with `let` or `const` which are block scoped.
+Variables declared with `var` are **function scoped**, in contrast to variables declared with `let` or `const` which are **block scoped**.
 
 ```js
 const scopeExample = () => {
@@ -32,11 +36,11 @@ const scopeExample = () => {
 };
 ```
 
-If you want to learn more, we have [an article covering JavaScript variables and scopes in more depth](/js/s/variable-scope).
+If you want to learn more, you can read [the article covering JavaScript variables and scopes in more depth](/js/s/variable-scope).
 
 ## Hoisting
 
-While variables declared with `var` are hoisted to the enclosing scope, variables declared with `let` or `const` are not initialized until their definition is evaluated.
+While variables declared with `var` are **hoisted** to the enclosing scope, variables declared with `let` or `const` are **not initialized** until their definition is evaluated.
 
 ```js
 const hoistingExample = () => {
@@ -50,11 +54,11 @@ const hoistingExample = () => {
 };
 ```
 
-If you want to learn more, we have [an article covering JavaScript hoisting in more depth](/js/s/variable-hoisting).
+If you want to learn more, you can read [the article covering JavaScript hoisting in more depth](/js/s/variable-hoisting).
 
 ## Global object property
 
-At the top level, variables declared with `var`, unlike ones declared with `let` or `const`, create a property on the global object.
+At the top level, variables declared with `var`, unlike ones declared with `let` or `const`, create a property on the **global object**.
 
 ```js
 var a = 'var';
@@ -66,7 +70,7 @@ console.log(window.b); // undefined
 
 ## Redeclaration
 
-In strict mode, variables declared with `var` can be re-declared in the same scope, whereas this is not allowed for variables declared with `let` or `const`.
+In strict mode, variables declared with `var` can be **re-declared** in the same scope, whereas this is **not allowed** for variables declared with `let` or `const`.
 
 ```js
 'use strict';
@@ -77,4 +81,4 @@ let b = 'let1';
 let b = 'let2'; // SyntaxError
 ```
 
-If you want to learn more, we have [an article covering JavaScript's strict mode in more depth](/js/s/use-strict).
+If you want to learn more, you can read [the article covering JavaScript's strict mode in more depth](/js/s/use-strict).

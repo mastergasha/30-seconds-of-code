@@ -1,11 +1,11 @@
 ---
 title: Check, compact or remove whitespaces in a JavaScript string
 shortTitle: Check, compact or remove whitespaces
-type: story
 language: javascript
 tags: [string,regexp]
 cover: tropical-bike
 excerpt: Learn how to work with whitespaces in JavaScript strings, using these simple yet powerful regular expression techniques.
+listed: true
 dateModified: 2024-01-27
 ---
 

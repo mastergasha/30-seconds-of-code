@@ -1,11 +1,11 @@
 ---
 title: How can I zip and unzip arrays in JavaScript?
 shortTitle: Zip or unzip arrays
-type: question
 language: javascript
 tags: [array]
 cover: new-york-skyline
 excerpt: Learn how to implement array zipping, a grouping of elements based on position in the original arrays, and its inverse, unzipping.
+listed: true
 dateModified: 2024-01-11
 ---
 

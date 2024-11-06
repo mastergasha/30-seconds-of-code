@@ -1,10 +1,10 @@
 slug: js/geometry
-name: JavaScript Geometric Operations
-featured: true
+title: JavaScript Geometric Operations
+listed: true
 snippetIds:
   - js/s/euclidean-distance
   - js/s/midpoint
-  - js/s/vector-distance
+  - js/s/euclidean-distance
   - js/s/vector-angle
 splash: tea-pour
 description: >-

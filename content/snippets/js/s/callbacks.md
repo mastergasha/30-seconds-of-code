@@ -1,11 +1,11 @@
 ---
 title: What is a callback function?
 shortTitle: Callback functions
-type: question
 language: javascript
 tags: [function]
 cover: rabbit-call
 excerpt: JavaScript uses callback functions quite a lot. From event listeners to asynchronous code, they're an invaluable tool you need to master.
+listed: true
 dateModified: 2021-10-03
 ---
 

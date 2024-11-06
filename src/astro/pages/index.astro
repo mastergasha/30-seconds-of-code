@@ -1,0 +1,56 @@
+---
+import '../styles/pages/index.scss';
+
+import fs from 'node:fs';
+import path from 'node:path';
+
+import Layout from '#src/astro/layouts/Layout.astro';
+import Hero from '#src/astro/components/Hero.astro';
+import PreviewList from '#src/astro/components/PreviewList.astro';
+import Chips from '#src/astro/components/Chips.astro';
+import Icon from '#src/astro/components/Icon.astro';
+
+const pagePath = path.join(process.cwd(), '.content', 'pages', 'index.json');
+const pageData = JSON.parse(fs.readFileSync(pagePath, 'utf8'));
+
+const title = 'Discover short code snippets for all your development needs.';
+const description =
+  '<p>Browse snippets by collection or check out our top picks and latest articles below.</p>';
+
+const {
+  featuredCollections,
+  featuredSnippets,
+  snippetListUrl,
+  splashImage,
+  splashImageSrcset,
+  pageDescription,
+  structuredData,
+} = pageData.props;
+---
+
+<Layout
+  title=''
+  description={pageDescription}
+  canonical={'/'}
+  structuredData={structuredData}
+>
+  <main slot='main-content'>
+  <Hero
+    title={title}
+    description={description}
+    cover={splashImage}
+    coverSrcset={splashImageSrcset}
+    secondary
+  />
+  <Chips items={featuredCollections} />
+    <PreviewList contentItems={featuredSnippets}>
+      <h2 slot='title'>New & Popular Snippets</h2>
+      <nav slot='bottom-nav' aria-label='Snippets'>
+        <a href={snippetListUrl}>
+          Explore all snippets
+          <Icon name='arrow-right' size='1.25em' />
+        </a>
+      </nav>
+    </PreviewList>
+  </main>
+</Layout>

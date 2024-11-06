@@ -1,11 +1,11 @@
 ---
 title: HTML element class manipulation with JavaScript
 shortTitle: Check or toggle HTML element class
-type: story
 language: javascript
 tags: [browser]
 cover:  bag-waiting
 excerpt: Learn how to work with HTML element classes in JavaScript, from simple class checks to adding, removing and toggling classes.
+listed: true
 dateModified: 2024-01-21
 ---
 

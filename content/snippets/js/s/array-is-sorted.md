@@ -1,11 +1,11 @@
 ---
 title: Check if a numeric array is sorted in JavaScript
 shortTitle: Array is sorted
-type: tip
 language: javascript
 tags: [array]
 cover: italian-horizon
 excerpt: Efficiently check if a numeric array is sorted in ascending or descending order in JavaScript.
+listed: true
 dateModified: 2024-02-15
 ---
 

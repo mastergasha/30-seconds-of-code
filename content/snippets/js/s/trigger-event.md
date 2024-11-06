@@ -1,11 +1,11 @@
 ---
 title: Programmatically trigger event on HTML element using JavaScript
 shortTitle: Trigger event on HTML element
-type: story
 language: javascript
 tags: [browser,event]
 cover: cloudy-mountaintop-2
 excerpt: Learn how to trigger an event on an HTML element using JavaScript.
+listed: true
 dateModified: 2023-11-03
 ---
 

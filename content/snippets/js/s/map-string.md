@@ -1,11 +1,11 @@
 ---
 title: Apply a mapping function to each character in a JavaScript string
 shortTitle: Map string
-type: tip
 language: javascript
 tags: [string]
 cover: budapest-palace
 excerpt: Learn how to replicate the behavior of `Array.prototype.map()` for strings.
+listed: true
 dateModified: 2024-02-27
 ---
 

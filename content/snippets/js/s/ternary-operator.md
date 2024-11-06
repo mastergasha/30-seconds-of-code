@@ -1,11 +1,11 @@
 ---
 title: What is the ternary operator and how do I use it?
 shortTitle: Ternary operation introduction
-type: question
 language: javascript
 tags: [condition]
 cover: red-succulent
 excerpt: Learn everything you need to know about the conditional (ternary) operator and how to use it in JavaScript.
+listed: true
 dateModified: 2021-06-12
 ---
 

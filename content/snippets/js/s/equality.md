@@ -1,11 +1,11 @@
 ---
 title: What is the difference between JavaScript's equality operators?
 shortTitle: JavaScript equality operators
-type: question
 language: javascript
 tags: [type,comparison]
 cover: beach-pineapple
 excerpt: Learn all you need to know about the differences between JavaScript's double equals and triple equals operators.
+listed: true
 dateModified: 2021-06-12
 ---
 

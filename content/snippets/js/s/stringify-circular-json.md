@@ -1,11 +1,11 @@
 ---
 title: Convert a JSON object with circular references to a JavaScript string
 shortTitle: Convert circular JSON to string
-type: tip
 language: javascript
 tags: [object]
 cover: waving-over-lake
 excerpt: Circular JSON objects can't be serialized using `JSON.stringify()`, but you can use this trick to handle them.
+listed: true
 dateModified: 2024-03-18
 ---
 

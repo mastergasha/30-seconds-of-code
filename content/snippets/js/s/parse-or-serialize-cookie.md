@@ -1,11 +1,11 @@
 ---
 title: Parse or serialize a cookie with JavaScript
 shortTitle: Parse or serialize cookie
-type: story
 language: javascript
 tags: [browser,string]
 cover: purple-sunset-beach
 excerpt: Learn how to parse or serialize a cookie with JavaScript, quickly and effectively.
+listed: true
 dateModified: 2024-01-12
 ---
 

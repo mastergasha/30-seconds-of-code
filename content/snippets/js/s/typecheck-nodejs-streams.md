@@ -1,11 +1,11 @@
 ---
 title: How can I check if a value implements a stream in Node.js?
 shortTitle: Stream type checking
-type: story
 language: javascript
 tags: [node,type]
 excerpt: Learn how to type check for different types of streams in Node.js.
 cover: mountain-lake-cottage-2
+listed: true
 dateModified: 2023-12-21
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: Quick sort
-type: story
 language: javascript
 tags: [algorithm,array,recursion]
 cover: eagle
 excerpt: Sort an array of numbers, using the quicksort algorithm.
+listed: true
 dateModified: 2023-12-16
 ---
 

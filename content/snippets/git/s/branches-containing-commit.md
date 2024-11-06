@@ -1,11 +1,11 @@
 ---
 title: Find branches containing a specific Git commit
 shortTitle: Find branches containing commit
-type: tip
 language: git
 tags: [branch,commit]
 cover: dark-leaves
 excerpt: Learn how to filter branches based on whether they contain a specific commit or not.
+listed: true
 dateModified: 2023-05-25
 ---
 

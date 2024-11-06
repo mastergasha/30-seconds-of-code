@@ -1,11 +1,11 @@
 ---
 title: Initialize a JavaScript array with the specified values
 shortTitle: Initialize array with values
-type: story
 language: javascript
 tags: [array]
 cover: flower-portrait-1
 excerpt: Initialize and fill a JavaScript array with the specified values, quickly and easily.
+listed: true
 dateModified: 2023-12-26
 ---
 

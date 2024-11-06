@@ -1,6 +1,6 @@
 slug: js/comparison
-name: JavaScript Comparison
-featured: true
+title: JavaScript Comparison
+listed: true
 snippetIds:
   - js/s/equality
   - js/s/value-not-equal-to-itself
@@ -8,9 +8,7 @@ snippetIds:
   - js/s/array-comparison
   - js/s/date-comparison
   - js/s/object-is-triple-equals
-  - js/s/deep-equality-comparison
   - js/s/match-object-properties
-  - js/s/function-based-object-property-matches
   - js/s/arrays-have-same-contents
 splash: succulent
 description: >-

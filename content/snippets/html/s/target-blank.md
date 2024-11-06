@@ -1,11 +1,11 @@
 ---
 title: 'Protect your users from malicious websites when using target="_blank"'
 shortTitle: 'Safeguarding target="_blank"'
-type: tip
 language: html
 tags: [link,security]
 cover: laptop-with-code
 excerpt: Opening a link in a new tab comes with a security vulnerability that you may not be aware of. Protect your users with this simple trick.
+listed: true
 dateModified: 2021-06-12
 ---
 

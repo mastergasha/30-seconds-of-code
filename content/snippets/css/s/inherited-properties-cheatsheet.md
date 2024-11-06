@@ -1,11 +1,11 @@
 ---
 title: CSS inherited properties cheatsheet
 shortTitle: Inherited properties
-type: cheatsheet
 language: css
-tags: [layout]
+tags: [layout,cheatsheet]
 cover: half-trees
 excerpt: A quick reference for inherited CSS properties.
+listed: true
 dateModified: 2022-11-20
 ---
 

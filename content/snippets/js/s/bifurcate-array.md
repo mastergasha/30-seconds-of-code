@@ -1,11 +1,11 @@
 ---
 title: How can I split a JavaScript array into two groups?
 shortTitle: Bifurcate array
-type: question
 language: javascript
 tags: [array]
 cover: canoe
 excerpt: Learn how to split a JavaScript array into two groups based on a function or an array of values.
+listed: true
 dateModified: 2023-10-09
 ---
 

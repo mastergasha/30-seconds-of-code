@@ -1,11 +1,11 @@
 ---
 title: How can I initialize 2D array in JavaScript?
 shortTitle: Initialize 2D array
-type: question
 language: javascript
 tags: [array,recursion]
 cover: cloudy-rock-formation
 excerpt: Learn how to initialize a 2D array in JavaScript in a handful of different ways.
+listed: true
 dateModified: 2023-12-27
 ---
 

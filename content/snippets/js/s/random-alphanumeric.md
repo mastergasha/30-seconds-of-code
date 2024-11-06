@@ -1,11 +1,11 @@
 ---
 title: Generate a random alphanumeric JavaScript string
 shortTitle: Random alphanumeric
-type: tip
 language: javascript
 tags: [string,random]
 cover: gold-typewriter
 excerpt: Use JavaScript to generate a random alphanumeric string of a specified length.
+listed: true
 dateModified: 2024-03-15
 ---
 

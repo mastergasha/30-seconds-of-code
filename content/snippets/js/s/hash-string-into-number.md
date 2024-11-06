@@ -1,11 +1,11 @@
 ---
 title: Implement the SDBM hash function in JavaScript
 shortTitle: Hash string into number
-type: tip
 language: javascript
 tags: [math]
 cover: cloudy-lake-reflection
 excerpt: SDBM is a simple, non-cryptographic hash function that can hash strings into whole numbers. Here's a JavaScript implementation.
+listed: true
 dateModified: 2024-03-03
 ---
 

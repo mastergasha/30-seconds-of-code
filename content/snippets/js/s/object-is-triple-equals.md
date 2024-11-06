@@ -1,11 +1,11 @@
 ---
 title: What's the difference between Object.is() and the triple equals operator in JavaScript?
 shortTitle: Object.is() vs triple equals operator
-type: question
 language: javascript
 tags: [object,type]
 cover: rocky-mountains
 excerpt: "`Object.is()` and the triple equals operator (`===`) can both be used for equality checking in JavaScript, but when should you use each one?"
+listed: true
 dateModified: 2021-06-12
 ---
 

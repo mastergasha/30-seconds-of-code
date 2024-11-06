@@ -1,11 +1,11 @@
 ---
 title: JavaScript function methods - call(), apply() and bind()
 shortTitle: Function methods - call, apply, bind
-type: story
 language: javascript
 tags: [function]
 cover: canoe
 excerpt: Learn everything you need to know about JavaScript's `call()`, `apply()` and `bind()` in this short guide.
+listed: true
 dateModified: 2024-02-20
 ---
 

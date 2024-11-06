@@ -1,11 +1,11 @@
 ---
 title: Find the prime factors of a number in JavaScript
 shortTitle: Prime factors
-type: tip
 language: javascript
 tags: [math,algorithm]
 cover: dark-leaves-3
 excerpt: Find the prime factors of a number using trial division in JavaScript.
+listed: true
 dateModified: 2024-02-23
 ---
 

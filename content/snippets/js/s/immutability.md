@@ -1,11 +1,11 @@
 ---
 title: Immutability in functional programming
 shortTitle: Immutability
-type: tip
 language: javascript
 tags: [webdev]
 cover: stars-n-snow
 excerpt: Immutability is a fundamental concept you should be familiar with when learning functional programming.
+listed: true
 dateModified: 2023-12-14
 ---
 

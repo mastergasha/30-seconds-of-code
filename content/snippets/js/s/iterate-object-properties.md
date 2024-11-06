@@ -1,11 +1,11 @@
 ---
 title: Iterate over a JavaScript object's own properties
 shortTitle: Iterate over object properties
-type: story
 language: javascript
 tags: [object]
 cover: building-facade
 excerpt: Iterate over all own properties of an object, running a callback for each one.
+listed: true
 dateModified: 2024-01-16
 ---
 

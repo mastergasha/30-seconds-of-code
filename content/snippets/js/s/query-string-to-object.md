@@ -1,11 +1,11 @@
 ---
 title: Convert between a query string and an object in JavaScript
 shortTitle: Query string to object
-type: story
 language: javascript
 tags: [object]
 cover: standing-stones
 excerpt: Convert between a query string and its object representation in JavaScript.
+listed: true
 dateModified: 2024-01-20
 ---
 

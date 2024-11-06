@@ -1,11 +1,11 @@
 ---
 title: Transform the keys of a JavaScript object
 shortTitle: Transform object keys
-type: story
 language: javascript
 tags: [object, recursion]
 cover: symmetry-cloudy-mountain
 excerpt: Learn how to perform various transformations on the keys of a JavaScript object.
+listed: true
 dateModified: 2024-02-19
 ---
 

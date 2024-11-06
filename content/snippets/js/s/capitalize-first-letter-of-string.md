@@ -1,11 +1,11 @@
 ---
 title: Capitalize the first letter of a JavaScript string
 shortTitle: Capitalize string
-type: tip
 language: javascript
 tags: [string]
 cover: digital-nomad-3
 excerpt: Learn how to capitalize the first letter of a string in JavaScript using array destructuring and `String.prototype.toUpperCase()`.
+listed: true
 dateModified: 2023-12-13
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Calculate the byte size of a JavaScript string
 shortTitle: Byte size of string
-type: tip
 language: javascript
 tags: [string]
 cover: mountain-lake-cottage-2
 excerpt: Figure out the exact number of bytes in a JavaScript string, including Unicode characters.
+listed: true
 dateModified: 2024-03-09
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Change color lightness using JavaScript
 shortTitle: Change color lightness
-type: tip
 language: javascript
 tags: [string,regexp]
 cover: aerial-view-port
 excerpt: Learn how to change the lightness component of an `hsl()` color string using JavaScript.
+listed: true
 dateModified: 2024-02-04
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Find all indexes of a substring in a JavaScript string
 shortTitle: All indexes of substring
-type: tip
 language: javascript
 tags: [string,generator]
 cover: armchair-in-yellow
 excerpt: Create a generator function that finds all the indexes of a substring in a given string.
+listed: true
 dateModified: 2024-03-10
 ---
 

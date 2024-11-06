@@ -1,11 +1,11 @@
 ---
 title: Can I use an arrow function as the callback for an event listener in JavaScript?
 shortTitle: Arrow function as callback for event listener
-type: question
 language: javascript
 tags: [browser,event,function]
 cover: coffee-float
 excerpt: Learn the differences between JavaScript ES6 arrow functions and regular functions and how they affect event listener callbacks.
+listed: true
 dateModified: 2021-06-12
 ---
 

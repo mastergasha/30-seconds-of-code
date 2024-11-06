@@ -1,11 +1,11 @@
 ---
 title: Debounce a JavaScript function
 shortTitle: Debounce function
-type: tip
 language: javascript
 tags: [function]
 cover: solitude-beach
 excerpt: Create a debounced function that waits a certain amount of time before invoking the provided function again.
+listed: true
 dateModified: 2023-10-12
 ---
 
@@ -16,6 +16,7 @@ To accomplish this, we can use **timeouts** to artificially create the necessary
 ```js
 const debounce = (fn, ms = 0) => {
   let timeoutId;
+
   return function(...args) {
     clearTimeout(timeoutId);
     timeoutId = setTimeout(() => fn.apply(this, args), ms);

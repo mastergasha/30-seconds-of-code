@@ -1,11 +1,11 @@
 ---
 title: Create a directory if it doesn't exist using Node.js
 shortTitle: Create directory if not exists
-type: story
 language: javascript
 tags: [node]
 cover: misty-mountains
 excerpt: Learn how to create a directory using Node.js, if it doesn't exist.
+listed: true
 dateModified: 2024-03-08
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Find the minimum or maximum date using JavaScript
 shortTitle: Min or max date
-type: tip
 language: javascript
 tags: [date]
 cover: interior-2
 excerpt: Quickly find the minimum or maximum date in an array of dates.
+listed: true
 dateModified: 2024-01-06
 ---
 

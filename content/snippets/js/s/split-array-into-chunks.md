@@ -1,11 +1,11 @@
 ---
 title: Split a JavaScript array into chunks
 shortTitle: Split array into chunks
-type: story
 language: javascript
 tags: [array,function,generator]
 cover: filter-coffee-pot
 excerpt: Chunk an array or iterable into arrays of a specified size or a given number of chunks.
+listed: true
 dateModified: 2023-11-07
 ---
 

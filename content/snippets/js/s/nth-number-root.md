@@ -1,11 +1,11 @@
 ---
 title: Calculate the nth root of a number in JavaScript
 shortTitle: Nth root of number
-type: tip
 language: javascript
 tags: [math]
 cover: tree-roots
 excerpt: Use `Math.pow()` to calculate the nth root of a given number in JavaScript.
+listed: true
 dateModified: 2024-02-17
 ---
 

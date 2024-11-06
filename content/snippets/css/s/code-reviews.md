@@ -1,11 +1,11 @@
 ---
 title: How do you review CSS code in Pull Requests?
 shortTitle: CSS code reviews
-type: story
 language: css
 tags: [webdev]
 cover: green-css
 excerpt: Reviewing CSS code is a skill that takes time to master. Here are some tips from my personal experience to help you get started.
+listed: true
 dateModified: 2023-05-21
 ---
 

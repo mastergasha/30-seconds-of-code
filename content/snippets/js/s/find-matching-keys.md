@@ -1,11 +1,11 @@
 ---
 title: Find matching keys in a JavaScript object
 shortTitle: Find matching keys
-type: story
 language: javascript
 tags: [object]
 cover: beach-riders
 excerpt: Find all the keys in a JavaScript object that match the given value.
+listed: true
 dateModified: 2023-12-15
 ---
 

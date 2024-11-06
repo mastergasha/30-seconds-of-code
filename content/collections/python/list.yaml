@@ -1,11 +1,12 @@
 slug: python/list
-name: Python List Snippets
-shortName: Python Lists
-miniName: List
-featured: true
+title: Python List Snippets
+shortTitle: Python Lists
+miniTitle: List
+listed: false
 parent: python
 languageMatcher: python
 tagMatcher: list
+allowUnlisted: true
 description: >-
   The Python snippet collection contains helper functions for Python 3.6. It
   includes utilities for most common data types, such as primitivies, lists,

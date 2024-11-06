@@ -1,11 +1,11 @@
 ---
 title: Calculate SHA-256 hash in JavaScript
 shortTitle: SHA-256 hash
-type: story
 language: javascript
-tags: [browser,node,promise]
+tags: [browser,node,promises]
 cover: padlocks
 excerpt: Calculate a SHA-256 hash in JavaScript using native APIs in both the browser and Node.js.
+listed: true
 dateModified: 2023-10-07
 ---
 

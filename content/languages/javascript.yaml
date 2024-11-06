@@ -5,6 +5,8 @@ additionalReferences: [css, html]
 references:
   ...: >-
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+  "**": >-
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Exponentiation
   try...catch: >-
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
   typeof: >-
@@ -364,6 +366,8 @@ references:
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/trunc
   Number: >-
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+  Number(): >-
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/Number
   Number.EPSILON: >-
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/EPSILON
   Number.MAX_SAFE_INTEGER: >-
@@ -759,6 +763,8 @@ references:
     https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute
   CSSStyleDeclaration: >-
     https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration
+  CSSStyleDeclaration.setProperty(): >-
+    https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty
   URL: https://developer.mozilla.org/en-US/docs/Web/API/URL
   EventTarget.addEventListener(): >-
     https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
@@ -771,6 +777,8 @@ references:
     https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
   EventTarget.dispatchEvent(): >-
     https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/dispatchEvent
+  Window.getSelection(): >-
+    https://developer.mozilla.org/en-US/docs/Web/API/Window/getSelection
   Window.matchMedia(): >-
     https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia
   Window.requestAnimationFrame(): >-
@@ -781,6 +789,10 @@ references:
     https://developer.mozilla.org/en-US/docs/Web/API/Crypto/randomUUID
   crypto.getRandomValues(): >-
     https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues
+  Intl.supportedValuesOf(): >-
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf
+  Intl.NumberFormat: >-
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat
   Intl.Segmenter: >-
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter
   Intl.Segmenter(): >-
@@ -801,6 +813,7 @@ references:
     https://developer.mozilla.org/en-US/docs/Web/API/structuredClone
   Navigator: https://developer.mozilla.org/en-US/docs/Web/API/Navigator
   Navigator.clipboard: https://developer.mozilla.org/en-US/docs/Web/API/Navigator/clipboard
+  Navigator.userAgent: https://developer.mozilla.org/en-US/docs/Web/API/Navigator/userAgent
   Clipboard.writeText(): >-
     https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/writeText
   Selection.getRangeAt(): >-
@@ -830,12 +843,23 @@ references:
   Window.getComputedStyle(): >-
     https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle
   HTMLElement.style: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
+  HTMLElement.offsetTop: >-
+    https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+  HTMLElement.offsetWidth: >-
+    https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetWidth
+  HTMLElement.offsetParent: >-
+    https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetParent
   Window.innerWidth: https://developer.mozilla.org/en-US/docs/Web/API/Window/innerWidth
   Window.scrollX: https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollX
   Window.scrollY: https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY
   Element.clientWidth: https://developer.mozilla.org/en-US/docs/Web/API/Element/clientWidth
   Element.scrollLeft: https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollLeft
   Element.scrollTop: https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop
+  Element.scrollHeight: https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollHeight
+  Element.getBoundingClientRect(): >-
+    https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
+  Element.requestFullscreen(): >-
+    https://developer.mozilla.org/en-US/docs/Web/API/Element/requestFullscreen
   Date(): >-
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date
   Intl.DateTimeFormat: >-
@@ -844,3 +868,7 @@ references:
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat
   Intl.DateTimeFormat.prototype.formatToParts(): >-
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/formatToParts
+  Selection: >-
+    https://developer.mozilla.org/en-US/docs/Web/API/Selection
+  Selection.toString(): >-
+    https://developer.mozilla.org/en-US/docs/Web/API/Selection/toString

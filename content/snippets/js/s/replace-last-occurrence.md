@@ -1,11 +1,11 @@
 ---
 title: Replace the last occurrence of a pattern in a JavaScript string
 shortTitle: Replace last occurrence
-type: tip
 language: javascript
 tags: [string,regexp]
 cover: waves
 excerpt: Learn how to use regular expressions to replace the last occurrence of a pattern in a JavaScript string.
+listed: true
 dateModified: 2024-02-08
 ---
 

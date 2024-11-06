@@ -1,11 +1,11 @@
 ---
 title: How can I check if an array is a superset of another array in JavaScript?
 shortTitle: Superset
-type: tip
 language: javascript
 tags: [array]
 cover: waves-from-above-2
 excerpt: Check if an iterable is a superset of another one, excluding duplicate values.
+listed: true
 dateModified: 2024-01-01
 ---
 

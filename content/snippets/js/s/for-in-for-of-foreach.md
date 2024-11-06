@@ -1,11 +1,11 @@
 ---
 title: What is the difference between JavaScript's for...in, for...of and forEach?
 shortTitle: JavaScript iteration methods comparison
-type: question
 language: javascript
 tags: [array,object,iterator]
 cover: lake-loop
 excerpt: Learn the differences between the three most commonly used iteration methods in JavaScript, that often confuse beginners and veterans alike.
+listed: true
 dateModified: 2021-06-12
 ---
 

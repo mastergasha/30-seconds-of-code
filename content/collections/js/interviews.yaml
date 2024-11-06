@@ -1,7 +1,7 @@
 slug: js/interviews
-name: JavaScript Interview Questions
-miniName: Interview Questions
-featured: true
+title: JavaScript Interview Questions
+miniTitle: Interview Questions
+listed: true
 parent: js
 snippetIds:
   - js/s/equality
@@ -16,7 +16,7 @@ snippetIds:
   - js/s/sync-async
   - js/s/classical-vs-prototypal-inheritance
   - js/s/this
-  - js/s/shallow-deep-clone
+  - js/s/shallow-deep-clone-object
   - js/s/copy-array
   - js/s/object-comparison
   - js/s/array-comparison

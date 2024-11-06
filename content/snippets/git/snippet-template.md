@@ -1,22 +1,12 @@
 ---
-title: Snippet name
-type: snippet
+title: My amazing story
+shortTitle: Amazing story
 language: git
 tags: [branch]
 cover: image
+excerpt: A short summary of your story up to 140 characters long.
+listed: true
 dateModified: 2021-06-13
 ---
 
-Explain briefly what the snippet does.
-
-- Explain briefly how the snippet works.
-- Use bullet points for your snippet's explanation.
-- Try to explain everything briefly but clearly.
-
-```shell
-git command <variable> [--option]
-
-# Examples
-git command some-branch --quiet
-# Output of running command on `some-branch`
-```
+Write your story here.

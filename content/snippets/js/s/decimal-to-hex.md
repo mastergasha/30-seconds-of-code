@@ -1,11 +1,11 @@
 ---
 title: Convert decimal number to hexadecimal
 shortTitle: Decimal to hexadecimal
-type: tip
 language: javascript
 tags: [math]
 cover: waves-from-above
 excerpt: Ever needed to convert a decimal number to hexadecimal? Here's a quick and easy way to do it.
+listed: true
 dateModified: 2022-09-21
 ---
 

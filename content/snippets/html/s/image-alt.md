@@ -1,11 +1,11 @@
 ---
 title: What is the purpose of the alt attribute on images?
 shortTitle: Image alt attribute
-type: question
 language: html
 tags: [image,accessibility]
 cover: sailing-alone
 excerpt: Learn how to correctly use the `alt` attribute on images in HTML.
+listed: true
 dateModified: 2023-06-25
 ---
 

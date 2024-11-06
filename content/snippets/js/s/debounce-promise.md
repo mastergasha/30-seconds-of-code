@@ -1,11 +1,11 @@
 ---
 title: Debounce a JavaScript function and return a promise
 shortTitle: Debounce promise
-type: tip
 language: javascript
-tags: [function,promise]
+tags: [promises,function]
 excerpt: Easily create a debounced function that returns a promise.
 cover: chess-pawns
+listed: true
 dateModified: 2023-10-13
 ---
 

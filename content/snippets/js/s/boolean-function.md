@@ -1,11 +1,11 @@
 ---
 title: Where and how can I use the Boolean function in JavaScript?
 shortTitle: Boolean function use-cases
-type: question
 language: javascript
 tags: [function,type]
 cover: rocky-lake
 excerpt: JavaScript's Boolean function can be used for truth-checking data among other things. Learn how to use it and level up your code today.
+listed: true
 dateModified: 2021-06-12
 ---
 

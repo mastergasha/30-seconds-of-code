@@ -1,11 +1,11 @@
 ---
 title: How can I check if a string starts or ends with a substring of another string using JavaScript?
 shortTitle: Starts or ends with substring
-type: question
 language: javascript
 tags: [string]
 cover: boutique-home-office-4
 excerpt: Test if a string's start or end partially matches another string.
+listed: true
 dateModified: 2023-12-31
 ---
 

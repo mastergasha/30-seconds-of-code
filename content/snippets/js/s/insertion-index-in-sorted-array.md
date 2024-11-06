@@ -1,11 +1,11 @@
 ---
 title: How can I find the insertion index of an element in a sorted JavaScript array?
 shortTitle: Insertion index in sorted array
-type: question
 language: javascript
 tags: [array,math]
 cover: apples
 excerpt: Given a sorted array, find the correct index to insert a given value.
+listed: true
 dateModified: 2024-01-02
 ---
 

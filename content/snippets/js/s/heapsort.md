@@ -1,10 +1,10 @@
 ---
 title: Heap sort
-type: story
 language: javascript
 tags: [algorithm,array,recursion]
 cover: building-blocks
 excerpt: Sort an array of numbers, using the heapsort algorithm.
+listed: true
 dateModified: 2023-12-16
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: How can I find the date of n days ago from today using JavaScript?
 shortTitle: Days ago from today
-type: tip
 language: javascript
 tags: [date]
 cover: orange-wedges
 excerpt: Calculate the date of `n` days ago from today or the date of `n` days from now.
+listed: true
 dateModified: 2024-01-07
 ---
 

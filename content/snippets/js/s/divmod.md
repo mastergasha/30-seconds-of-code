@@ -1,11 +1,11 @@
 ---
 title: Calculate the quotient and remainder of a division in JavaScript
 shortTitle: Quotient and remainder of division
-type: tip
 language: javascript
 tags: [math]
 cover: italian-horizon
 excerpt: Implement Python's `divmod()` built-in function in one line of JavaScript.
+listed: true
 dateModified: 2023-12-28
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: How do I compare two dates in JavaScript?
 shortTitle: Date comparison
-type: question
 language: javascript
 tags: [date,comparison]
 cover: pineapple-at-work
 excerpt: Learn how you can compare two dates in JavaScript, determining which one comes before or after the other.
+listed: true
 dateModified: 2024-01-06
 ---
 

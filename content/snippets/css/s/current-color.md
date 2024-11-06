@@ -1,10 +1,10 @@
 ---
 title: The currentColor CSS keyword
-type: tip
 language: css
 tags: [visual]
 cover: picking-berries
 excerpt: The `currentColor` CSS keyword is a nifty alternative to custom properties for simple use cases.
+listed: true
 dateModified: 2022-11-30
 ---
 

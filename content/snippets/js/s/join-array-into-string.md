@@ -1,11 +1,11 @@
 ---
 title: Join a JavaScript array into a string, with locale-sensitive separators
 shortTitle: Join array into string
-type: tip
 language: javascript
 tags: [array]
 cover: couch-laptop
 excerpt: Learn how to leverage `Intl.ListFormat` to join an array into a string, with appropriate separators.
+listed: true
 dateModified: 2024-01-23
 ---
 

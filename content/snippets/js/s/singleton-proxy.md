@@ -1,11 +1,11 @@
 ---
 title: How can I implement a singleton in JavaScript?
 shortTitle: Singleton implementation
-type: question
 language: javascript
 tags: [object,proxy,pattern]
 cover: obelisk
 excerpt: Learn how to implement the singleton design pattern in JavaScript, using the Proxy object.
+listed: true
 dateModified: 2021-09-28
 ---
 

@@ -1,18 +1,14 @@
 ---
 title: Sum of powers
-type: snippet
 language: python
 tags: [math]
 cover: river-flow
-dateModified: 2020-11-02
+excerpt: Find the sum of the powers of all the numbers from `start` to `end` (both inclusive).
+listed: false
+dateModified: 2024-05-10
 ---
 
-Returns the sum of the powers of all the numbers from `start` to `end` (both inclusive).
-
-- Use `range()` in combination with a list comprehension to create a list of elements in the desired range raised to the given `power`.
-- Use `sum()` to add the values together.
-- Omit the second argument, `power`, to use a default power of `2`.
-- Omit the third argument, `start`, to use a default starting value of `1`.
+Using `range()` and a list comprehension, you can easily create a list of elements in a given range raised to the desired power. Then, you can use `sum()` to add the values together. This way you can find the sum of the powers of all the numbers from `start` to `end` (both inclusive).
 
 ```py
 def sum_of_powers(end, power = 2, start = 1):

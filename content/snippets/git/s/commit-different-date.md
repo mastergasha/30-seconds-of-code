@@ -1,10 +1,10 @@
 ---
 title: Create a commit with a different date
-type: tip
 language: git
 tags: [commit]
 cover: ice
 excerpt: Ever needed to create a git commit with a different date? Here's a quick and easy way to do it.
+listed: true
 dateModified: 2021-06-12
 ---
 

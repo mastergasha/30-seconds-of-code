@@ -1,11 +1,11 @@
 ---
 title: What's the difference between undeclared, undefined and null in JavaScript?
 shortTitle: Undeclared, undefined and null
-type: question
 language: javascript
 tags: [type]
 cover: river-houses
 excerpt: JavaScript has three different empty states for variables. Learn their differences and how you can check for each one.
+listed: true
 dateModified: 2021-06-12
 ---
 

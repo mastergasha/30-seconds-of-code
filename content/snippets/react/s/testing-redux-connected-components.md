@@ -1,11 +1,11 @@
 ---
 title: Testing Redux-connected components with React Testing Library
 shortTitle: Redux-connected components testing
-type: story
 language: react
 tags: [testing]
 cover: sparkles
 excerpt: Testing Redux-connected components is pretty common. Learn how to use this simple utility function to speed up your testing.
+listed: true
 dateModified: 2021-11-07
 ---
 

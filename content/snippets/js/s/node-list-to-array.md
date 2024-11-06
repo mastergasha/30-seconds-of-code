@@ -1,11 +1,11 @@
 ---
 title: Convert a NodeList to a JavaScript array
 shortTitle: NodeList to array
-type: tip
 language: javascript
 tags: [browser,array]
 cover: compass-2
 excerpt: Ever needed to convert a `NodeList` to an array in JavaScript? Here's the fastest way to do so.
+listed: true
 dateModified: 2024-03-21
 ---
 

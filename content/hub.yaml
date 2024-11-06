@@ -1,4 +1,5 @@
-name: Snippet Collections
+slug: collections
+title: Snippet Collections
 splash: widescreen
 description: >-
   30 seconds of code provides a wide variety of snippet and article
@@ -11,12 +12,12 @@ shortDescription: >-
 featuredListings:
 - js
 - css
-- react/hooks
 - js/algorithm
-- python
+- react/hooks
+- js/node
 - git
 - js/interviews
-- js/node
+- python
 - js/data-structures
 - js/promises
 - js/functional-programming
@@ -31,8 +32,6 @@ featuredListings:
 - js/event-handling
 - js/arrow-functions
 - js/performance
-- tips
-- react/rendering
 - js/colors
 - js/array-methods
 - react/testing

@@ -1,11 +1,11 @@
 ---
 title: Check if a JavaScript string is a valid JSON
 shortTitle: Check if string is valid JSON
-type: tip
 language: javascript
 tags: [type]
 cover: italian-horizon
 excerpt: Use a simple JavaScript trick to validate a serialized JSON object.
+listed: true
 dateModified: 2024-03-17
 ---
 

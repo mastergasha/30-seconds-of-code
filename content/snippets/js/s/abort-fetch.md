@@ -1,11 +1,11 @@
 ---
 title: Abort a fetch request in JavaScript
 shortTitle: Abort a fetch request
-type: story
 language: javascript
 tags: [function]
 cover: cancel-typographer
 excerpt: Aborting a fetch request in JavaScript is a common problem. Here's how to handle it correctly.
+listed: true
 dateModified: 2022-05-15
 ---
 

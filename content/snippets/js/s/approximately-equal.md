@@ -1,11 +1,11 @@
 ---
 title: Check if two numbers are approximately equal in JavaScript
 shortTitle: Approximate number equality
-type: tip
 language: javascript
 tags: [math]
 cover: female-hiker
 excerpt: Learn how to check if two numbers are approximately equal to each other in JavaScript.
+listed: true
 dateModified: 2024-02-04
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Escape or unescape HTML using JavaScript
 shortTitle: Escape or unescape HTML
-type: story
 language: javascript
 tags: [string,regexp]
 cover: above-the-rocks
 excerpt: Learn how to convert text into HTML-safe strings and vice versa using JavaScript.
+listed: true
 dateModified: 2024-02-18
 ---
 

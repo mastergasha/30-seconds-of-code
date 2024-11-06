@@ -1,18 +1,13 @@
 slug: js/dom-querying
-name: JavaScript DOM Querying
-featured: true
+title: JavaScript DOM Querying
+listed: true
 snippetIds:
-  - js/s/get-siblings
-  - js/s/get-ancestors
-  - js/s/get-parents-until
-  - js/s/find-closest-matching-node
-  - js/s/element-contains
-  - js/s/find-closest-anchor
+  - js/s/get-ancestors-parents-siblings-children
   - js/s/get-images
   - js/s/query-selector-shorthand
   - js/s/element-is-visible-in-viewport
   - js/s/select-focused-dom-element
-  - js/s/get-elements-bigger-than-viewport
+  - js/s/get-elements-wider-than-viewport
   - js/s/element-from-point
   - js/s/get-vertical-offset
   - js/s/store-dom-items

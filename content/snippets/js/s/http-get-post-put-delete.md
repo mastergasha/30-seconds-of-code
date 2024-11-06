@@ -1,11 +1,11 @@
 ---
 title: How can I perform an HTTP request in JavaScript?
 shortTitle: HTTP request
-type: question
 language: javascript
 tags: [browser]
 cover: boat-port
 excerpt: Learn how to perform HTTP GET, POST, PUT, and DELETE requests in JavaScript.
+listed: true
 dateModified: 2024-02-13
 ---
 

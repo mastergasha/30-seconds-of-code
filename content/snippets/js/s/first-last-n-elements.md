@@ -1,11 +1,11 @@
 ---
 title: Get the first or last n elements in a JavaScript array
 shortTitle: First or last n elements of an array
-type: tip
 language: javascript
 tags: [array]
 cover: fort-lamp
 excerpt: Learn how to retrieve the first or last `n` elements in a JavaScript array with a single line of code.
+listed: true
 dateModified: 2023-10-04
 ---
 
@@ -28,4 +28,4 @@ lastN(arr, 2); // ['c', 'd']
 lastN(arr, 5); // ['a', 'b', 'c', 'd']
 ```
 
-As you can see, it only take a single line of code to get the first or last `n` elements of an array. This code also handles **out-of-bounds indices**, resulting in a shallow clone of the original array. Be mindful of **negative** `n` values, however, as the results will not make much sense.
+As you can see, it only takes a single line of code to get the first or last `n` elements of an array. This code also handles **out-of-bounds indices**, resulting in a shallow clone of the original array. Be mindful of **negative** `n` values, however, as the results will not make much sense.

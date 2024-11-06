@@ -1,11 +1,11 @@
 ---
 title: Calculate all permutations of a JavaScript array or string
 shortTitle: Array or string permutations
-type: story
 language: javascript
 tags: [array,string,recursion]
 cover: body-of-water
 excerpt: Generate all permutations of an array's elements or a string's characters using recursion.
+listed: true
 dateModified: 2024-02-09
 ---
 

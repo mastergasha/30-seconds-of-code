@@ -1,11 +1,11 @@
 ---
 title: Use data attributes instead of HTML classes to represent state
 shortTitle: Data attributes as state
-type: story
 language: html
 tags: [css,javascript]
 cover: pineapple-on-the-rocks
 excerpt: Learn how to use data attributes to represent UI state and level up your HTML and CSS game.
+listed: true
 dateModified: 2023-11-13
 ---
 

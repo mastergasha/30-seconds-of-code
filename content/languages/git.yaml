@@ -42,9 +42,9 @@ references:
     https://git-scm.com/docs/git-checkout#Documentation/git-checkout.txt--bltnew-branchgt
   git checkout <branch>: >-
     https://git-scm.com/docs/git-checkout#Documentation/git-checkout.txt-ltbranchgt
-  git checkout <branch> <file>: >-
+  git checkout <branch> <pathspec>: >-
     https://git-scm.com/docs/git-checkout#Documentation/git-checkout.txt-ltpathspecgt82308203
-  git checkout <commit>^ -- <file>: >-
+  git checkout <commit>^ -- <pathspec>: >-
     https://git-scm.com/docs/git-checkout
   git checkout <new-name>: >-
     https://git-scm.com/docs/git-checkout#Documentation/git-checkout.txt-ltnew-branchgt
@@ -55,6 +55,8 @@ references:
   git cherry-pick <commit>: >-
     https://git-scm.com/docs/git-cherry-pick
   git cherry-pick <first-commit>..<last-commit>: >-
+    https://git-scm.com/docs/git-cherry-pick
+  git cherry-pick <first-commit>^..<last-commit>: >-
     https://git-scm.com/docs/git-cherry-pick
   git clean -f -d: >-
     https://git-scm.com/docs/git-clean
@@ -82,7 +84,7 @@ references:
     https://git-scm.com/docs/git-config#Documentation/git-config.txt---add
   git config --get remote.origin.url: >-
     https://git-scm.com/docs/git-config#Documentation/git-config.txt---get
-  git config --global -e: >-
+  git config -e: >-
     https://git-scm.com/docs/git-config#Documentation/git-config.txt--e
   git config --global core.editor <editor-command>: >-
     https://git-scm.com/docs/git-config#Documentation/git-config.txt-coreeditor
@@ -100,6 +102,8 @@ references:
     https://git-scm.com/docs/git-config#Documentation/git-config.txt-useremail
   git config user.name <name>: >-
     https://git-scm.com/docs/git-config#Documentation/git-config.txt-username
+  git config --global alias.<alias> <command>: >-
+    https://git-scm.com/docs/git-config#Documentation/git-config.txt-alias
   git diff: >-
     https://git-scm.com/docs/git-diff
   git diff <branch>..<other-branch>: >-
@@ -112,18 +116,30 @@ references:
     https://git-scm.com/docs/git-fetch
   git filter-branch --force --index-filter <command> --prune-empty --tag-name-filter cat -- --all: >-
     https://git-scm.com/docs/git-filter-branch
+  git fsck: >-
+    https://git-scm.com/docs/git-fsck
   git fsck --lost-found: >-
     https://git-scm.com/docs/git-fsck
   git gc --prune=now --aggressive: >-
     https://git-scm.com/docs/git-gc
+  git grep: >-
+    https://git-scm.com/docs/git-grep
+  git grep <pattern>: >-
+    https://git-scm.com/docs/git-grep
+  git grep <pattern> -- <pathspec>: >-
+    https://git-scm.com/docs/git-grep#Documentation/git-grep.txt-ltpathspecgt82308203
+  git grep <pattern> <commit>: >-
+    https://git-scm.com/docs/git-grep
   git init: >-
     https://git-scm.com/docs/git-init
-  git init [<directory>]: >-
+  git init <directory>: >-
     https://git-scm.com/docs/git-init
   git log: >-
     https://git-scm.com/docs/git-log
   git log --author=<author>: >-
     https://git-scm.com/docs/git-log#Documentation/git-log.txt---authorltpatterngt
+  git log --committer=<committer>: >-
+    https://git-scm.com/docs/git-log#Documentation/git-log.txt---committerltpatterngt
   git log --pretty=oneline --graph --decorate --all: >-
     https://git-scm.com/docs/git-log#Documentation/git-log.txt---prettyltformatgt
   git log --since=<date-from> --until=<date-to>: >-
@@ -144,7 +160,7 @@ references:
     https://git-scm.com/docs/git-push#Documentation/git-push.txt--d
   git push -f: >-
     https://git-scm.com/docs/git-push#Documentation/git-push.txt--f
-  git push <remote> --force -all: >-
+  git push <remote> --force --all: >-
     https://git-scm.com/docs/git-push#Documentation/git-push.txt---force
   git push origin --delete <old-name>: >-
     https://git-scm.com/docs/git-push#Documentation/git-push.txt---delete
@@ -176,6 +192,8 @@ references:
     https://git-scm.com/docs/git-reset#Documentation/git-reset.txt---hard
   git reset HEAD~<n> --hard: >-
     https://git-scm.com/docs/git-reset#Documentation/git-reset.txt---hard
+  git reset HEAD^: >-
+    https://git-scm.com/docs/git-reset#Documentation/git-reset.txt-Undoacommitandredo
   git restore --staged <pathspec>: >-
     https://git-scm.com/docs/git-restore
   git rev-parse --abbrev-ref HEAD: >-
@@ -194,16 +212,20 @@ references:
     https://git-scm.com/docs/git-shortlog
   git stash apply: >-
     https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-apply--index-q--quietltstashgt
-  git stash apply <stash>: >-
-    https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-apply--index-q--quietltstashgt
   git stash clear: >-
     https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-clear
-  git stash drop <stash>: >-
+  git stash drop: >-
     https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-drop-q--quietltstashgt
   git stash list: >-
     https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-listltlog-optionsgt
   git stash save: >-
     https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-save-p--patch-S--staged-k--no-keep-index-u--include-untracked-a--all-q--quietltmessagegt
+  git stash push: >-
+    https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-push-p--patch-S--staged-k--no-keep-index-u--include-untracked-a--all-q--quiet-m--messageltmessagegt--pathspec-from-fileltfilegt--pathspec-file-nul--ltpathspecgt82308203
+  git stash pop: >-
+    https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-pop--index-q--quietltstashgt
+  git stash show: >-
+    https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-show-u--include-untracked--only-untrackedltdiff-optionsgtltstashgt
   git status: >-
     https://git-scm.com/docs/git-status
   git submodule add <upstream-path> <local-path>: >-
@@ -216,3 +238,9 @@ references:
     https://git-scm.com/docs/git-submodule#Documentation/git-submodule.txt-update--init--remote-N--no-fetch--no-recommend-shallow-f--force--checkout--rebase--merge--referenceltrepositorygt--depthltdepthgt--recursive--jobsltngt--no-single-branch--filterltfilterspecgt--ltpathgt82308203
   git switch <branch>: >-
     https://git-scm.com/docs/git-switch
+  git switch -: >-
+    https://git-scm.com/docs/git-switch
+  git mv <old-submodule> <new-submodule>: >-
+    https://git-scm.com/docs/git-mv
+  git checkout --orphan <branch>: >-
+    https://git-scm.com/docs/git-checkout#Documentation/git-checkout.txt---orphanltnew-branchgt

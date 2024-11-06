@@ -1,11 +1,11 @@
 ---
 title: Map a JavaScript array to an object
 shortTitle: Map array to object
-type: story
 language: javascript
 tags: [array,object]
 cover: two-lighthouses
 excerpt: Map the values of an array to an object, using the given mapping functions.
+listed: true
 dateModified: 2024-01-15
 ---
 

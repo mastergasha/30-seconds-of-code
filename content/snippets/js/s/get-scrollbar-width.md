@@ -1,11 +1,11 @@
 ---
 title: Get the width of the scrollbar using JavaScript
 shortTitle: Get scrollbar width
-type: tip
 language: javascript
 tags: [browser]
 cover: violin
 excerpt: Easily and reliably calculate the width of the browser's vertical scrollbar with JavaScript.
+listed: true
 dateModified: 2024-02-24
 ---
 

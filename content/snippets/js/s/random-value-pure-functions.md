@@ -1,11 +1,11 @@
 ---
 title: Using random values with pure functions
 shortTitle: Pure functions & randomness
-type: story
 language: javascript
 tags: [function,random,testing]
 cover: do-more-computer
 excerpt: Randomness and pure functions don't seem to go hand in hand. But where there's a will, there's a way.
+listed: true
 dateModified: 2022-06-19
 ---
 

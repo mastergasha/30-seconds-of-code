@@ -1,11 +1,11 @@
 ---
 title: Rewind back to a specific commit in Git
 shortTitle: Rewind to commit
-type: story
 language: git
 tags: [branch,commit]
 cover: walking
 excerpt: Did you make a mistake but haven't pushed your changes yet? Learn how to rewind back to a specific commit in Git.
+listed: true
 dateModified: 2023-05-26
 ---
 

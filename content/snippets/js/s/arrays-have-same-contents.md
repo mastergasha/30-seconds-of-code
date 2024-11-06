@@ -1,11 +1,11 @@
 ---
 title: Check if two JavaScript arrays have same contents
 shortTitle: Arrays have same contents
-type: story
 language: javascript
 tags: [array]
 cover: interior-15
 excerpt: Learn how to compare the contents of two arrays to see if they contain the same elements regardless of order.
+listed: true
 dateModified: 2024-03-04
 ---
 

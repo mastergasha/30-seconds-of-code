@@ -1,10 +1,10 @@
 ---
 title: Resource Preloading Cheat Sheet
-type: cheatsheet
 language: html
-tags: [metadata]
+tags: [metadata,cheatsheet]
 cover: folded-map
 excerpt: Preloading content is one of many ways to improve your website's performance.
+listed: true
 dateModified: 2022-10-12
 ---
 

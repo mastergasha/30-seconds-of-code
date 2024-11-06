@@ -1,11 +1,11 @@
 ---
 title: How can I check for a blank value in JavaScript?
 shortTitle: Value is blank
-type: question
 language: javascript
 tags: [type]
 cover: workspace-with-speaker
 excerpt: JavaScript doesn't have a built-in way to check if a value is blank, but it's easy to create one.
+listed: true
 dateModified: 2022-09-25
 ---
 

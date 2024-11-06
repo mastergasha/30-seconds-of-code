@@ -1,11 +1,11 @@
 ---
 title: What is the difference between list.sort() and sorted() in Python?
 shortTitle: List.sort vs sorted
-type: question
 language: python
 tags: [list]
 cover: duck-plants
 excerpt: Learn the difference between Python's built-in list sorting methods and when one is preferred over the other.
+listed: false
 dateModified: 2021-06-12
 ---
 

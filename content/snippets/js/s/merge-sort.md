@@ -1,10 +1,10 @@
 ---
 title: Merge sort
-type: story
 language: javascript
 tags: [algorithm,array,recursion]
 cover: balloons-field
 excerpt: Sort an array of numbers, using the merge sort algorithm.
+listed: true
 dateModified: 2023-12-16
 ---
 

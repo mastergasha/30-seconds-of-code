@@ -1,11 +1,11 @@
 ---
 title: Flatten or unflatten a JavaScript object
 shortTitle: Flatten or unflatten object
-type: story
 language: javascript
 tags: [object,recursion]
 cover: lighthouse
 excerpt: Learn how to manipulate JavaScript objects by flattening or unflattening them.
+listed: true
 dateModified: 2024-01-03
 ---
 

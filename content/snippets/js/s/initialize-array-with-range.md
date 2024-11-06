@@ -1,11 +1,11 @@
 ---
 title: Initialize a JavaScript array with a given numeric range
 shortTitle: Initialize array with range
-type: story
 language: javascript
 tags: [array]
 cover: spanish-resort
 excerpt: Learn how to create an inclusive array with numbers in a range, using a common `step` difference.
+listed: true
 dateModified: 2023-12-25
 ---
 

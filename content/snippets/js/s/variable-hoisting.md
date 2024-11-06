@@ -1,11 +1,11 @@
 ---
 title: What is hoisting in JavaScript?
 shortTitle: Hoisting introduction
-type: question
 language: javascript
 tags: [type,variable]
 cover: boat-port
 excerpt: Hoisting comes up a lot during JavaScript interviews. It's a concept that may require some getting used to, so read our guide to learn more.
+listed: true
 dateModified: 2023-09-28
 ---
 

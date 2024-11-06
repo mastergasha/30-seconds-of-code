@@ -1,11 +1,11 @@
 ---
 title: How can I truncate a string to a specified length using JavaScript?
 shortTitle: Truncate string
-type: question
 language: javascript
 tags: [string]
 cover: reflection-on-lake
 excerpt: String splitting and truncation, both simple and locale-sensitive are possible in JavaScript. Learn how in this guide.
+listed: true
 dateModified: 2023-12-31
 ---
 

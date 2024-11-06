@@ -1,11 +1,11 @@
 ---
 title: An Introduction to JavaScript Proxy
 shortTitle: JavaScript Proxy Introduction
-type: story
 language: javascript
 tags: [object,proxy,pattern]
 cover: red-mountain-range
 excerpt: A quick introduction to the JavaScript Proxy object and where it can be used.
+listed: true
 dateModified: 2023-04-02
 ---
 

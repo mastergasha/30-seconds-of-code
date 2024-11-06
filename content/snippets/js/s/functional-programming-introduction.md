@@ -1,11 +1,11 @@
 ---
 title: An introduction to functional programming
 shortTitle: Functional programming introduction
-type: story
 language: javascript
 tags: [function]
 cover: driftwood
 excerpt: A short introduction to the functional programming paradigm.
+listed: true
 dateModified: 2023-12-30
 ---
 

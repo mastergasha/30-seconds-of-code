@@ -1,11 +1,11 @@
 ---
 title: How can I create a circular progress bar using only CSS?
 shortTitle: Circular progress bar
-type: story
 language: css
 tags: [visual,animation]
 cover: clouds-over-mountains
 excerpt: Circular progress bars are fairly common in the web. Luckily, some new CSS features make it easier than ever to create them.
+listed: true
 dateModified: 2023-12-23
 ---
 

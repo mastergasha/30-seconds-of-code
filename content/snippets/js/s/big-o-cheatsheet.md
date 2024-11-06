@@ -1,10 +1,10 @@
 ---
 title: Big-O Cheat Sheet
-type: cheatsheet
 language: javascript
-tags: [algorithm]
+tags: [algorithm,cheatsheet]
 cover: light-ring
 excerpt: Learn everything you need to know about Big-O notation with this handy cheatsheet.
+listed: true
 dateModified: 2023-01-08
 ---
 

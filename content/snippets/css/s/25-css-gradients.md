@@ -1,21 +1,21 @@
 ---
 title: 25 CSS gradients for your next project
 shortTitle: CSS gradients
-type: cheatsheet
 language: css
-tags: [visual]
+tags: [visual,cheatsheet]
 cover: colors-mural
-excerpt: We hand picked 25 of our favorite CSS gradients from uiGradients for your next design. Get them now!
-dateModified: 2021-06-12
+excerpt: I hand picked 25 of my favorite CSS gradients from uiGradients for your next design. Get them now!
+listed: true
+dateModified: 2024-01-12
 ---
 
-[uiGradients](https://uigradients.com/) has an amazing collection of ready-to-use CSS gradients for pretty much anything. I highly recommend checking out the full collection. Meantime, here are our top picks in case you're looking for some color:
+[uiGradients](https://uigradients.com/) has an amazing collection of ready-to-use CSS gradients for pretty much anything. I highly recommend checking out the full collection. Meantime, here are my top picks in case you're looking for some color:
 
 <style>
 .gradient-box {
   grid-column: 1 / -1;
   width: 100%;
-  height: 96px;
+  height: 144px;
   border-radius: var(--layout-border-radius) var(--layout-border-radius) 0 0;
   margin-top: var(--layout-row-spacing);
 }

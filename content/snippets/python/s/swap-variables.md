@@ -1,11 +1,11 @@
 ---
 title: 3 ways to swap two variables in Python
 shortTitle: Variable swapping
-type: story
 language: python
 tags: [variables]
 cover: leaves-read
 excerpt: Learn 3 easy ways to swap the values of two variables in Python.
+listed: false
 dateModified: 2021-11-07
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Filter a JavaScript object's properties by keys or values
 shortTitle: Filter object keys or values
-type: story
 language: javascript
 tags: [object]
 cover: leafy-screens
 excerpt: Learn how to transform objects by filtering their properties based on an array of keys or a predicate function.
+listed: true
 dateModified: 2024-01-14
 ---
 

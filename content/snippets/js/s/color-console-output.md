@@ -1,11 +1,11 @@
 ---
 title: Colorize text in the Node.js terminal
 shortTitle: Colorize text
-type: tip
 language: javascript
 tags: [node,string]
 cover: plant-corner
 excerpt: Use special Unicode characters to print text in color in the console.
+listed: true
 dateModified: 2024-03-14
 ---
 

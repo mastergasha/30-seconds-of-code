@@ -1,11 +1,11 @@
 ---
 title: Get the first or last date of a month using JavaScript
 shortTitle: First or last date of a month
-type: story
 language: javascript
 tags: [date]
 cover: polar-bear
 excerpt: Use the `Date` object and some clever tricks to get the first or last date of a month in JavaScript.
+listed: true
 dateModified: 2024-02-17
 ---
 

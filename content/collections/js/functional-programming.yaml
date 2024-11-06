@@ -1,7 +1,7 @@
 slug: js/functional-programming
-name: JavaScript Functional Programming
-shortName: Functional Programming
-featured: true
+title: JavaScript Functional Programming
+shortTitle: Functional Programming
+listed: true
 snippetIds:
   - js/s/functional-programming-introduction
   - js/s/pure-functions
@@ -11,7 +11,8 @@ snippetIds:
   - js/s/currying
   - js/s/function-composition
   - js/s/function-arity
-  - js/s/partially-apply-functions
+  - js/s/partially-apply-function
+  - js/s/reorder-function-arguments
 description: >-
   Functional programming treats computation as the evaluation of mathematical
   functions and avoids changing-state and mutable data. Get started with this

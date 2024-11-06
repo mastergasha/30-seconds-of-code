@@ -1,11 +1,11 @@
 ---
 title: Replacing JavaScript switch statement with object literals
 shortTitle: Switch with object literals
-type: story
 language: javascript
 tags: [object]
 cover: rocky-lake
 excerpt: JavaScript's `switch` statement often feels hard to remember and a little bit out of place. Maybe it's time to use object literals, instead.
+listed: true
 dateModified: 2021-11-07
 ---
 

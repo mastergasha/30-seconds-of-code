@@ -1,11 +1,11 @@
 ---
 title: Check if a number is prime in JavaScript
 shortTitle: Number is prime
-type: story
 language: javascript
 tags: [math,algorithm]
 cover: thread
 excerpt: Learn how to check if a number is prime and how to generate prime numbers up to a given number in JavaScript.
+listed: true
 dateModified: 2024-01-25
 ---
 

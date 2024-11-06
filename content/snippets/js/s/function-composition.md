@@ -1,11 +1,11 @@
 ---
 title: Function composition in JavaScript
 shortTitle: Function composition
-type: story
 language: javascript
 tags: [function]
 cover: digital-nomad-16
 excerpt: Understand the basics of function composition, a fundamental concept in functional programming.
+listed: true
 dateModified: 2023-12-29
 ---
 

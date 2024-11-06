@@ -1,11 +1,11 @@
 ---
 title: Create your own query selector shorthand in vanilla JavaScript
 shortTitle: Query selector shorthand
-type: tip
 language: javascript
 tags: [browser]
 cover: pineapple-at-work
 excerpt: Ever wanted to create your own jquery-like query selector shorthand? Here's how!
+listed: true
 dateModified: 2021-06-12
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Remove accents from a JavaScript string
 shortTitle: Remove accents
-type: tip
 language: javascript
 tags: [string,regexp]
 cover: pink-flowers
 excerpt: Learn how to remove accents from a string in JavaScript, quickly and efficiently.
+listed: true
 dateModified: 2024-02-07
 ---
 

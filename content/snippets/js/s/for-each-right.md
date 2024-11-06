@@ -1,11 +1,11 @@
 ---
 title: Iterate over a JavaScript array from right to left
 shortTitle: Iterate over array in reverse
-type: tip
 language: javascript
 tags: [array]
 cover: interior-6
 excerpt: Learn how to execute a function for each element of an array, starting from the last one.
+listed: true
 dateModified: 2023-10-10
 ---
 

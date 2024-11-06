@@ -1,11 +1,11 @@
 ---
 title: JavaScript naming conventions
 shortTitle: Naming conventions
-type: story
 language: javascript
 tags: [variable,cheatsheet]
 cover: naming-conventions
 excerpt: Naming conventions make code easier to read and understand. Learn how to name your variables in JavaScript with this handy guide.
+listed: true
 dateModified: 2021-06-12
 ---
 

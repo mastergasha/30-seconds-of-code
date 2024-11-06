@@ -1,10 +1,10 @@
 ---
 title: CSS Reset
-type: story
 language: css
 tags: [visual]
 cover: bridge-over-road
 excerpt: A short, opinionated CSS reset to make your websites look great everywhere.
+listed: true
 dateModified: 2022-10-16
 ---
 
@@ -67,7 +67,7 @@ pre, code, kbd {
   - `font-size` - Use a larger font size for better readability and to keep up with recent design trends.
   - `line-height` - Use a larger line height to increase visual clarity.
 - `body`:
-  `margin` - Remove the default margin in all browsers.
+  - `margin` - Remove the default margin in all browsers.
 - `h1`-`h6`:
   - `margin` - Use larger margins for headers to improve visual hierarchy.
 - `p`, `ul`, `ol`:

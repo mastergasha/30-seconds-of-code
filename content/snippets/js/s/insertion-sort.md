@@ -1,10 +1,10 @@
 ---
 title: Insertion sort
-type: story
 language: javascript
 tags: [algorithm,array]
 cover: white-tablet-2
 excerpt: Sort an array of numbers, using the insertion sort algorithm.
+listed: true
 dateModified: 2023-12-16
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Add or remove an event listener in JavaScript
 shortTitle: Add or remove event listener
-type: story
 language: javascript
 tags: [browser,event]
 cover: wooden-bowl
 excerpt: Learn how to add or remove event listeners from elements with ease.
+listed: true
 dateModified: 2023-10-28
 ---
 

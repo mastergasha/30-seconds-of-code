@@ -1,11 +1,11 @@
 ---
 title: Calculate the powerset of a JavaScript array
 shortTitle: Powerset of array
-type: tip
 language: javascript
 tags: [math]
 cover: new-plant
 excerpt: Generate the powerset of a given array of numbers or other primitive values.
+listed: true
 dateModified: 2024-03-11
 ---
 

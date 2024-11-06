@@ -1,10 +1,10 @@
 ---
 title: Selection sort
-type: story
 language: javascript
 tags: [algorithm,array]
 cover: yellow-sofa
 excerpt: Sort an array of numbers, using the selection sort algorithm.
+listed: true
 dateModified: 2023-12-16
 ---
 

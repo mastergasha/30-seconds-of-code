@@ -1,11 +1,11 @@
 ---
 title: What does if __name__ == "__main__" do in Python?
 shortTitle: Name equals main
-type: story
 language: python
 tags: [function]
 cover: stairs-from-below
 excerpt: Understand what one of the most commonly used Python constructs does and when you should use it.
+listed: false
 dateModified: 2024-01-17
 ---
 

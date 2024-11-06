@@ -1,11 +1,11 @@
 ---
 title: How do I convert a string to lowercase in Python?
 shortTitle: Lowercase string
-type: question
 language: python
 tags: [string]
 cover: type-stamps
 excerpt: Learn of the two different ways to convert strings to lowercase in Python and understand when you should use each one with this quick guide.
+listed: false
 dateModified: 2021-06-12
 ---
 

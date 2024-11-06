@@ -1,11 +1,11 @@
 ---
 title: Format a date to ISO string with timezone using JavaScript
 shortTitle: Date to ISO format with timezone
-type: story
 language: javascript
 tags: [date]
 cover: pop-of-green
 excerpt: Convert a date to extended ISO format (ISO 8601), including timezone offset.
+listed: true
 dateModified: 2024-01-07
 ---
 

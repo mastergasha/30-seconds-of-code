@@ -1,8 +1,8 @@
 slug: js/data-structures
-name: JavaScript Data Structures
-miniName: Data Structures
+title: JavaScript Data Structures
+miniTitle: Data Structures
 parent: js
-featured: true
+listed: true
 snippetIds:
   - js/s/native-data-structures
   - js/s/data-structures-queue
@@ -13,13 +13,13 @@ snippetIds:
   - js/s/data-structures-tree
   - js/s/data-structures-binary-tree
   - js/s/data-structures-binary-search-tree
-  - js/s/frequency-map-data-structure
+  - js/s/modeling-money-currency-exchange-rates
   - js/s/big-o-cheatsheet
 splash: purple-flower
 description: >-
   The JavaScript data structures collection includes implementations and
   examples of some of the most commonly-used data structures. Data structure
-  snippets are best used as a learning resource, as they might require
+  snippets are **best used as a learning resource**, as they might require
   optimizations to run in production.
 shortDescription: >-
   A guide to some of the most commonly-used data structures, along with

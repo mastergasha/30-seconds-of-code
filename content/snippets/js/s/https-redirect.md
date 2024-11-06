@@ -1,11 +1,11 @@
 ---
 title: How can I redirect the page to HTTPS in JavaScript?
 shortTitle: Redirect to HTTPS
-type: question
 language: javascript
 tags: [browser]
 cover: blue-lake
 excerpt: Learn how to redirect the page to HTTPS if it's currently in HTTP.
+listed: true
 dateModified: 2023-10-18
 ---
 

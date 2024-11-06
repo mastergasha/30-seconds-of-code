@@ -1,11 +1,11 @@
 ---
 title: Find the head and tail of an array in JavaScript
 shortTitle: Head and tail of array
-type: story
 language: javascript
 tags: [array]
 cover: clay-pot-horizon
 excerpt: Find the head or tail of a JavaScript array without mutating it.
+listed: true
 dateModified: 2023-10-08
 ---
 

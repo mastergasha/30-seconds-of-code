@@ -1,10 +1,10 @@
 ---
 title: Calculate the Euclidean distance in JavaScript
-type: story
 language: javascript
 tags: [math,algorithm]
 cover: ancient-greek-building
 excerpt: Use JavaScript's `Math.hypot()` to calculate the Euclidean distance between two points.
+listed: true
 dateModified: 2023-12-18
 ---
 

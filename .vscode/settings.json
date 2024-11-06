@@ -42,7 +42,7 @@
     "**/README.md": true,
     "globals.js": true
   },
-  "eslint.experimental.useFlatConfig": true,
+  "eslint.useFlatConfig": true,
   "spellright.language": [
     "en"
   ],
@@ -52,4 +52,9 @@
     "markdown"
   ],
   "spellright.configurationScope": "workspace",
+  "spellright.ignoreFiles": [
+    "**/.gitignore",
+    "netlify.toml",
+    ".github/*"
+  ]
 }

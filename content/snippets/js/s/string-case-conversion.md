@@ -1,11 +1,11 @@
 ---
 title: Case conversion in JavaScript
 shortTitle: Case conversion
-type: story
 language: javascript
 tags: [string,regexp]
 cover: chubby-squirrel
 excerpt: A complete guide to case conversion in JavaScript, including camel case, kebab case, snake case, Pascal case, title case and sentence case.
+listed: true
 dateModified: 2023-12-31
 ---
 

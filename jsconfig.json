@@ -4,12 +4,8 @@
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
-      "#blocks/*": ["./src/blocks/*.js"],
-      "#components/*" : ["./src/components/*.astro"],
-      "#layouts/*": ["./src/layouts/*.astro"],
-      "#settings/*": ["./src/settings/*.js"],
-      "#utils": ["./src/utils/index.js"],
-      "#utils/search": ["./src/utils/search.js"]
+      "#src/*": ["./src/*"],
+      "#spec/*": ["./spec/*"]
     }
   },
   "exclude": ["node_modules"]

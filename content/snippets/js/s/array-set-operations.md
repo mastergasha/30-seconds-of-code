@@ -1,11 +1,11 @@
 ---
 title: Set operations in JavaScript
 shortTitle: Set operations
-type: story
 language: javascript
 tags: [array]
 cover: dim-mountains
 excerpt: Explore how you can apply mathematical set operations to JavaScript `Set` objects and arrays.
+listed: true
 dateModified: 2024-01-01
 ---
 

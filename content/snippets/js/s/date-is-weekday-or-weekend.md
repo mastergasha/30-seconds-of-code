@@ -1,11 +1,11 @@
 ---
 title: Determine if a JavaScript date is a weekday or weekend
 shortTitle: Date is weekday or weekend
-type: tip
 language: javascript
 tags: [date]
 cover: tropical-bike
 excerpt: Quickly and easily determine if a given JavaScript `Date` object is a weekday or weekend.
+listed: true
 dateModified: 2024-01-06
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Implementing the Luhn Algorithm in JavaScript
 shortTitle: Luhn algorithm
-type: tip
 language: javascript
 tags: [math,algorithm]
 cover: blank-card
 excerpt: Implement the Luhn Algorithm, used to validate a variety of identification numbers.
+listed: true
 dateModified: 2024-02-22
 ---
 
